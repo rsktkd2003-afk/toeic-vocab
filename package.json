@@ -10,7 +10,9 @@
     "lint": "oxlint",
     "test": "vitest run",
     "validate:content": "node tools/content/cli.ts",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "content:build-draft": "node tools/content/build-draft.ts",
+    "content:import-review": "node tools/content/import-review.ts"
   },
   "dependencies": {
     "react": "^19.3.1",

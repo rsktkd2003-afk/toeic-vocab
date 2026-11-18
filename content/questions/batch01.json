@@ -1,0 +1,6330 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "2026.11.0",
+  "questions": [
+    {
+      "questionId": "q-w00001-en2ja-1",
+      "version": 1,
+      "wordId": "w00001",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "invoice"
+      },
+      "choices": [
+        {
+          "text": "領収書",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "請求書",
+          "fromWordId": "w00001",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "見積もり",
+          "fromWordId": "w00003",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "返金",
+          "fromWordId": "w00004",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "invoice（名詞）は「請求書」「送り状」という意味です。例：Please send the invoice to our accounting department.（経理部に請求書を送ってください。） ほかの選択肢：「領収書」は receipt、「見積もり」は estimate、「返金」は refund。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00001-ja2en-1",
+      "version": 1,
+      "wordId": "w00001",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "請求書"
+      },
+      "choices": [
+        {
+          "text": "receipt",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "invoice",
+          "fromWordId": "w00001",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "estimate",
+          "fromWordId": "w00003",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "refund",
+          "fromWordId": "w00004",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「請求書」は invoice（名詞）です。例：Please send the invoice to our accounting department.（経理部に請求書を送ってください。） ほかの選択肢：receipt＝領収書、estimate＝見積もり、refund＝返金。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00001-cloze-1",
+      "version": 1,
+      "wordId": "w00001",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The supplier sent the ___ for the office chairs we ordered last week.",
+        "ja": "先週注文した事務用いすの請求書を、業者が送ってきた。"
+      },
+      "choices": [
+        {
+          "text": "applicant",
+          "fromWordId": "w00014",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "deadline",
+          "fromWordId": "w00008",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "invoice",
+          "fromWordId": "w00001",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "facility",
+          "fromWordId": "w00011",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "注文した品物について業者が送ってくるのは「請求書」です。 訳：先週注文した事務用いすの請求書を、業者が送ってきた。 ほかの選択肢：applicant（応募者）、deadline（締め切り）、facility（施設）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00002-en2ja-1",
+      "version": 1,
+      "wordId": "w00002",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "receipt"
+      },
+      "choices": [
+        {
+          "text": "請求書",
+          "fromWordId": "w00001",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "割引",
+          "fromWordId": "w00016",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "領収書",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "予算",
+          "fromWordId": "w00007",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "receipt（名詞）は「領収書」「レシート」という意味です。例：Keep the receipt in case you need to return the item.（商品を返品する場合に備えて、領収書を保管してください。） ほかの選択肢：「請求書」は invoice、「割引」は discount、「予算」は budget。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00002-ja2en-1",
+      "version": 1,
+      "wordId": "w00002",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "領収書"
+      },
+      "choices": [
+        {
+          "text": "invoice",
+          "fromWordId": "w00001",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "refund",
+          "fromWordId": "w00004",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "receipt",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "estimate",
+          "fromWordId": "w00003",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "「領収書」は receipt（名詞）です。例：Keep the receipt in case you need to return the item.（商品を返品する場合に備えて、領収書を保管してください。） ほかの選択肢：invoice＝請求書、refund＝返金、estimate＝見積もり。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00002-cloze-1",
+      "version": 1,
+      "wordId": "w00002",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "To get a refund, please bring the item and the original ___ to the store.",
+        "ja": "返金を受けるには、商品と元の領収書を店に持ってきてください。"
+      },
+      "choices": [
+        {
+          "text": "deadline",
+          "fromWordId": "w00008",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "revenue",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "applicant",
+          "fromWordId": "w00014",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "receipt",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "返金の手続きで商品と一緒に持参するのは「領収書（レシート）」です。 訳：返金を受けるには、商品と元の領収書を店に持ってきてください。 ほかの選択肢：deadline（締め切り）、revenue（収益）、applicant（応募者）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00003-en2ja-1",
+      "version": 1,
+      "wordId": "w00003",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "estimate"
+      },
+      "choices": [
+        {
+          "text": "請求書",
+          "fromWordId": "w00001",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "領収書",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "収益",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "見積もり",
+          "fromWordId": "w00003",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "estimate（名詞）は「見積もり」「見積書」という意味です。例：The contractor gave us an estimate for the repair work.（業者は修理作業の見積もりを出してくれた。） ほかの選択肢：「請求書」は invoice、「領収書」は receipt、「収益」は revenue。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00003-ja2en-1",
+      "version": 1,
+      "wordId": "w00003",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "見積もり"
+      },
+      "choices": [
+        {
+          "text": "invoice",
+          "fromWordId": "w00001",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "receipt",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "budget",
+          "fromWordId": "w00007",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "estimate",
+          "fromWordId": "w00003",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "「見積もり」は estimate（名詞）です。例：The contractor gave us an estimate for the repair work.（業者は修理作業の見積もりを出してくれた。） ほかの選択肢：invoice＝請求書、receipt＝領収書、budget＝予算。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00003-cloze-1",
+      "version": 1,
+      "wordId": "w00003",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Before we accept the offer, could you send us a written ___ of the total cost?",
+        "ja": "申し出を受ける前に、総費用の見積もりを書面で送っていただけますか。"
+      },
+      "choices": [
+        {
+          "text": "estimate",
+          "fromWordId": "w00003",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "shipment",
+          "fromWordId": "w00013",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "applicant",
+          "fromWordId": "w00014",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "facility",
+          "fromWordId": "w00011",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "契約前に「総費用」について書面で出してもらうものは「見積もり」です。名詞の estimate は「見積もり」、動詞では「見積もる」の意味になります。 訳：申し出を受ける前に、総費用の見積もりを書面で送っていただけますか。 ほかの選択肢：shipment（発送品）、applicant（応募者）、facility（施設）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00004-en2ja-1",
+      "version": 1,
+      "wordId": "w00004",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "refund"
+      },
+      "choices": [
+        {
+          "text": "返金",
+          "fromWordId": "w00004",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "割引",
+          "fromWordId": "w00016",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "請求書",
+          "fromWordId": "w00001",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "予算",
+          "fromWordId": "w00007",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "refund（名詞）は「返金」「払い戻し」という意味です。例：Customers can ask for a full refund within 30 days.（顧客は30日以内なら全額返金を求めることができる。） ほかの選択肢：「割引」は discount、「請求書」は invoice、「予算」は budget。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00004-ja2en-1",
+      "version": 1,
+      "wordId": "w00004",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "返金"
+      },
+      "choices": [
+        {
+          "text": "refund",
+          "fromWordId": "w00004",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "discount",
+          "fromWordId": "w00016",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "receipt",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "revenue",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "「返金」は refund（名詞）です。例：Customers can ask for a full refund within 30 days.（顧客は30日以内なら全額返金を求めることができる。） ほかの選択肢：discount＝割引、receipt＝領収書、revenue＝収益。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00004-cloze-1",
+      "version": 1,
+      "wordId": "w00004",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The concert was canceled, so all ticket holders will receive a full ___.",
+        "ja": "コンサートが中止になったので、チケットを持っている人は全員、全額の返金を受ける。"
+      },
+      "choices": [
+        {
+          "text": "deadline",
+          "fromWordId": "w00008",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "refund",
+          "fromWordId": "w00004",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "department",
+          "fromWordId": "w00010",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "inventory",
+          "fromWordId": "w00012",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "中止になったイベントのチケット代は「返金（払い戻し）」されます。a full refund で「全額返金」です。 訳：コンサートが中止になったので、チケットを持っている人は全員、全額の返金を受ける。 ほかの選択肢：deadline（締め切り）、department（部署）、inventory（在庫）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00005-en2ja-1",
+      "version": 1,
+      "wordId": "w00005",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "client"
+      },
+      "choices": [
+        {
+          "text": "応募者",
+          "fromWordId": "w00014",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "顧客",
+          "fromWordId": "w00005",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "供給業者",
+          "fromWordId": "w00006",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "部署",
+          "fromWordId": "w00010",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "client（名詞）は「顧客」「依頼人」という意味です。例：She is meeting an important client this afternoon.（彼女は今日の午後、大切な顧客と会う予定だ。） ほかの選択肢：「応募者」は applicant、「供給業者」は supplier、「部署」は department。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00005-ja2en-1",
+      "version": 1,
+      "wordId": "w00005",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "顧客"
+      },
+      "choices": [
+        {
+          "text": "supplier",
+          "fromWordId": "w00006",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "client",
+          "fromWordId": "w00005",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "applicant",
+          "fromWordId": "w00014",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "department",
+          "fromWordId": "w00010",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「顧客」は client（名詞）です。例：She is meeting an important client this afternoon.（彼女は今日の午後、大切な顧客と会う予定だ。） ほかの選択肢：supplier＝供給業者、applicant＝応募者、department＝部署。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00005-cloze-1",
+      "version": 1,
+      "wordId": "w00005",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The sales team took the ___ out to dinner to celebrate the new deal.",
+        "ja": "営業チームは新しい取引を祝って、顧客を夕食に連れて行った。"
+      },
+      "choices": [
+        {
+          "text": "inventory",
+          "fromWordId": "w00012",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "revenue",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "client",
+          "fromWordId": "w00005",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "deadline",
+          "fromWordId": "w00008",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "取引成立を祝って夕食に連れて行く相手は「顧客」です。物や数値を表す他の選択肢は人を連れて行く対象になりません。 訳：営業チームは新しい取引を祝って、顧客を夕食に連れて行った。 ほかの選択肢：inventory（在庫）、revenue（収益）、deadline（締め切り）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00006-en2ja-1",
+      "version": 1,
+      "wordId": "w00006",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "supplier"
+      },
+      "choices": [
+        {
+          "text": "顧客",
+          "fromWordId": "w00005",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "応募者",
+          "fromWordId": "w00014",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "供給業者",
+          "fromWordId": "w00006",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "施設",
+          "fromWordId": "w00011",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "supplier（名詞）は「供給業者」「仕入れ先」という意味です。例：We are looking for a new supplier of paper products.（当社は紙製品の新しい仕入れ先を探している。） ほかの選択肢：「顧客」は client、「応募者」は applicant、「施設」は facility。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00006-ja2en-1",
+      "version": 1,
+      "wordId": "w00006",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "供給業者、仕入れ先"
+      },
+      "choices": [
+        {
+          "text": "client",
+          "fromWordId": "w00005",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "applicant",
+          "fromWordId": "w00014",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "supplier",
+          "fromWordId": "w00006",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "department",
+          "fromWordId": "w00010",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "「供給業者、仕入れ先」は supplier（名詞）です。例：We are looking for a new supplier of paper products.（当社は紙製品の新しい仕入れ先を探している。） ほかの選択肢：client＝顧客、applicant＝応募者、department＝部署。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00006-cloze-1",
+      "version": 1,
+      "wordId": "w00006",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The factory had to stop production because its ___ could not deliver the parts on time.",
+        "ja": "仕入れ先が部品を期日どおりに納品できなかったため、工場は生産を止めなければならなかった。"
+      },
+      "choices": [
+        {
+          "text": "applicant",
+          "fromWordId": "w00014",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "budget",
+          "fromWordId": "w00007",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "receipt",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "supplier",
+          "fromWordId": "w00006",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "工場に部品を納品する立場にあるのは「供給業者（仕入れ先）」です。 訳：仕入れ先が部品を期日どおりに納品できなかったため、工場は生産を止めなければならなかった。 ほかの選択肢：applicant（応募者）、budget（予算）、receipt（領収書）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00007-en2ja-1",
+      "version": 1,
+      "wordId": "w00007",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "budget"
+      },
+      "choices": [
+        {
+          "text": "収益",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "割引",
+          "fromWordId": "w00016",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "締め切り",
+          "fromWordId": "w00008",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "予算",
+          "fromWordId": "w00007",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "budget（名詞）は「予算」という意味です。例：The project was finished on time and within budget.（そのプロジェクトは予定どおり、予算内で完了した。） ほかの選択肢：「収益」は revenue、「割引」は discount、「締め切り」は deadline。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00007-ja2en-1",
+      "version": 1,
+      "wordId": "w00007",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "予算"
+      },
+      "choices": [
+        {
+          "text": "revenue",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "estimate",
+          "fromWordId": "w00003",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "invoice",
+          "fromWordId": "w00001",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "budget",
+          "fromWordId": "w00007",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "「予算」は budget（名詞）です。例：The project was finished on time and within budget.（そのプロジェクトは予定どおり、予算内で完了した。） ほかの選択肢：revenue＝収益、estimate＝見積もり、invoice＝請求書。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00007-cloze-1",
+      "version": 1,
+      "wordId": "w00007",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The marketing department has a limited ___, so we cannot run TV ads this year.",
+        "ja": "マーケティング部は予算が限られているので、今年はテレビ広告を出せない。"
+      },
+      "choices": [
+        {
+          "text": "budget",
+          "fromWordId": "w00007",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "shipment",
+          "fromWordId": "w00013",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "applicant",
+          "fromWordId": "w00014",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "receipt",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "「限られているので広告を出せない」とあるので、使えるお金の枠である「予算」が入ります。 訳：マーケティング部は予算が限られているので、今年はテレビ広告を出せない。 ほかの選択肢：shipment（発送品）、applicant（応募者）、receipt（領収書）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00008-en2ja-1",
+      "version": 1,
+      "wordId": "w00008",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "deadline"
+      },
+      "choices": [
+        {
+          "text": "締め切り",
+          "fromWordId": "w00008",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "予算",
+          "fromWordId": "w00007",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "契約",
+          "fromWordId": "w00009",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "割引",
+          "fromWordId": "w00016",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "deadline（名詞）は「締め切り」「期限」という意味です。例：The deadline for applications is March 31.（応募の締め切りは3月31日だ。） ほかの選択肢：「予算」は budget、「契約」は contract、「割引」は discount。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00008-ja2en-1",
+      "version": 1,
+      "wordId": "w00008",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "締め切り、期限"
+      },
+      "choices": [
+        {
+          "text": "deadline",
+          "fromWordId": "w00008",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "budget",
+          "fromWordId": "w00007",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "contract",
+          "fromWordId": "w00009",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "shipment",
+          "fromWordId": "w00013",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "「締め切り、期限」は deadline（名詞）です。例：The deadline for applications is March 31.（応募の締め切りは3月31日だ。） ほかの選択肢：budget＝予算、contract＝契約、shipment＝発送品。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00008-cloze-1",
+      "version": 1,
+      "wordId": "w00008",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Please send your report by Friday, as the ___ cannot be changed.",
+        "ja": "期限は変更できないので、金曜日までに報告書を送ってください。"
+      },
+      "choices": [
+        {
+          "text": "revenue",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "deadline",
+          "fromWordId": "w00008",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "facility",
+          "fromWordId": "w00011",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "receipt",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「金曜日までに」「変更できない」とあるので、期日を表す「締め切り」が入ります。 訳：期限は変更できないので、金曜日までに報告書を送ってください。 ほかの選択肢：revenue（収益）、facility（施設）、receipt（領収書）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00009-en2ja-1",
+      "version": 1,
+      "wordId": "w00009",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "contract"
+      },
+      "choices": [
+        {
+          "text": "請求書",
+          "fromWordId": "w00001",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "契約",
+          "fromWordId": "w00009",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "見積もり",
+          "fromWordId": "w00003",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "締め切り",
+          "fromWordId": "w00008",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "contract（名詞）は「契約」「契約書」という意味です。例：Both companies signed a three-year contract.（両社は3年契約に署名した。） ほかの選択肢：「請求書」は invoice、「見積もり」は estimate、「締め切り」は deadline。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00009-ja2en-1",
+      "version": 1,
+      "wordId": "w00009",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "契約（書）"
+      },
+      "choices": [
+        {
+          "text": "invoice",
+          "fromWordId": "w00001",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "contract",
+          "fromWordId": "w00009",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "receipt",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "estimate",
+          "fromWordId": "w00003",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「契約（書）」は contract（名詞）です。例：Both companies signed a three-year contract.（両社は3年契約に署名した。） ほかの選択肢：invoice＝請求書、receipt＝領収書、estimate＝見積もり。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00009-cloze-1",
+      "version": 1,
+      "wordId": "w00009",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Please read the ___ carefully before you sign it.",
+        "ja": "署名する前に、契約書をよく読んでください。"
+      },
+      "choices": [
+        {
+          "text": "revenue",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "shipment",
+          "fromWordId": "w00013",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "contract",
+          "fromWordId": "w00009",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "facility",
+          "fromWordId": "w00011",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "署名（sign）する前によく読む書類は「契約書」です。 訳：署名する前に、契約書をよく読んでください。 ほかの選択肢：revenue（収益）、shipment（発送品）、facility（施設）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00010-en2ja-1",
+      "version": 1,
+      "wordId": "w00010",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "department"
+      },
+      "choices": [
+        {
+          "text": "施設",
+          "fromWordId": "w00011",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "顧客",
+          "fromWordId": "w00005",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "予算",
+          "fromWordId": "w00007",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "部署",
+          "fromWordId": "w00010",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "department（名詞）は「部署」「部門」という意味です。例：He works in the sales department.（彼は営業部で働いている。） ほかの選択肢：「施設」は facility、「顧客」は client、「予算」は budget。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00010-ja2en-1",
+      "version": 1,
+      "wordId": "w00010",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "部署、部門"
+      },
+      "choices": [
+        {
+          "text": "facility",
+          "fromWordId": "w00011",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "client",
+          "fromWordId": "w00005",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "inventory",
+          "fromWordId": "w00012",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "department",
+          "fromWordId": "w00010",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "「部署、部門」は department（名詞）です。例：He works in the sales department.（彼は営業部で働いている。） ほかの選択肢：facility＝施設、client＝顧客、inventory＝在庫。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00010-cloze-1",
+      "version": 1,
+      "wordId": "w00010",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "If you have questions about your salary, please contact the accounting ___.",
+        "ja": "給与について質問があれば、経理部に連絡してください。"
+      },
+      "choices": [
+        {
+          "text": "department",
+          "fromWordId": "w00010",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "receipt",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "refund",
+          "fromWordId": "w00004",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "applicant",
+          "fromWordId": "w00014",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "accounting department で「経理部」です。給与の問い合わせ先になる組織を表します。 訳：給与について質問があれば、経理部に連絡してください。 ほかの選択肢：receipt（領収書）、refund（返金）、applicant（応募者）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00011-en2ja-1",
+      "version": 1,
+      "wordId": "w00011",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "facility"
+      },
+      "choices": [
+        {
+          "text": "施設",
+          "fromWordId": "w00011",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "部署",
+          "fromWordId": "w00010",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "在庫",
+          "fromWordId": "w00012",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "契約",
+          "fromWordId": "w00009",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "facility（名詞）は「施設」「設備」という意味です。例：The hotel has excellent sports facilities.（そのホテルには優れたスポーツ施設がある。） ほかの選択肢：「部署」は department、「在庫」は inventory、「契約」は contract。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00011-ja2en-1",
+      "version": 1,
+      "wordId": "w00011",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "施設、設備"
+      },
+      "choices": [
+        {
+          "text": "facility",
+          "fromWordId": "w00011",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "department",
+          "fromWordId": "w00010",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "inventory",
+          "fromWordId": "w00012",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "shipment",
+          "fromWordId": "w00013",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "「施設、設備」は facility（名詞）です。例：The hotel has excellent sports facilities.（そのホテルには優れたスポーツ施設がある。） ほかの選択肢：department＝部署、inventory＝在庫、shipment＝発送品。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00011-cloze-1",
+      "version": 1,
+      "wordId": "w00011",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The company is building a new research ___ near the airport.",
+        "ja": "その会社は空港の近くに新しい研究施設を建設している。"
+      },
+      "choices": [
+        {
+          "text": "deadline",
+          "fromWordId": "w00008",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "facility",
+          "fromWordId": "w00011",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "receipt",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "revenue",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「建設している（building）」対象になるのは建物である「施設」です。 訳：その会社は空港の近くに新しい研究施設を建設している。 ほかの選択肢：deadline（締め切り）、receipt（領収書）、revenue（収益）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00012-en2ja-1",
+      "version": 1,
+      "wordId": "w00012",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "inventory"
+      },
+      "choices": [
+        {
+          "text": "発送品",
+          "fromWordId": "w00013",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "在庫",
+          "fromWordId": "w00012",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "収益",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "施設",
+          "fromWordId": "w00011",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "inventory（名詞）は「在庫」「在庫品」「目録」という意味です。例：The store checks its inventory every month.（その店は毎月、在庫を確認している。） ほかの選択肢：「発送品」は shipment、「収益」は revenue、「施設」は facility。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00012-ja2en-1",
+      "version": 1,
+      "wordId": "w00012",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "在庫"
+      },
+      "choices": [
+        {
+          "text": "shipment",
+          "fromWordId": "w00013",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "inventory",
+          "fromWordId": "w00012",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "revenue",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "discount",
+          "fromWordId": "w00016",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「在庫」は inventory（名詞）です。例：The store checks its inventory every month.（その店は毎月、在庫を確認している。） ほかの選択肢：shipment＝発送品、revenue＝収益、discount＝割引。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00012-cloze-1",
+      "version": 1,
+      "wordId": "w00012",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "We need to count the ___ in the warehouse before we order more products.",
+        "ja": "商品を追加注文する前に、倉庫の在庫を数える必要がある。"
+      },
+      "choices": [
+        {
+          "text": "deadline",
+          "fromWordId": "w00008",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "applicant",
+          "fromWordId": "w00014",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "inventory",
+          "fromWordId": "w00012",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "refund",
+          "fromWordId": "w00004",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "倉庫（warehouse）にあり、追加注文の前に数えるものは「在庫」です。 訳：商品を追加注文する前に、倉庫の在庫を数える必要がある。 ほかの選択肢：deadline（締め切り）、applicant（応募者）、refund（返金）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00013-en2ja-1",
+      "version": 1,
+      "wordId": "w00013",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "shipment"
+      },
+      "choices": [
+        {
+          "text": "在庫",
+          "fromWordId": "w00012",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "返金",
+          "fromWordId": "w00004",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "発送品",
+          "fromWordId": "w00013",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "割引",
+          "fromWordId": "w00016",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "shipment（名詞）は「発送品」「積み荷」「発送」という意味です。例：The shipment arrived two days late.（積み荷は2日遅れで届いた。） ほかの選択肢：「在庫」は inventory、「返金」は refund、「割引」は discount。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00013-ja2en-1",
+      "version": 1,
+      "wordId": "w00013",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "発送品、積み荷"
+      },
+      "choices": [
+        {
+          "text": "inventory",
+          "fromWordId": "w00012",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "invoice",
+          "fromWordId": "w00001",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "shipment",
+          "fromWordId": "w00013",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "receipt",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "「発送品、積み荷」は shipment（名詞）です。例：The shipment arrived two days late.（積み荷は2日遅れで届いた。） ほかの選択肢：inventory＝在庫、invoice＝請求書、receipt＝領収書。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00013-cloze-1",
+      "version": 1,
+      "wordId": "w00013",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The ___ of new laptops is expected to arrive at our warehouse on Monday.",
+        "ja": "新しいノートパソコンの発送品は、月曜日に当社の倉庫に届く予定だ。"
+      },
+      "choices": [
+        {
+          "text": "budget",
+          "fromWordId": "w00007",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "deadline",
+          "fromWordId": "w00008",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "applicant",
+          "fromWordId": "w00014",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "shipment",
+          "fromWordId": "w00013",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "倉庫に「届く（arrive）」のは送られてくる品物、つまり「発送品」です。 訳：新しいノートパソコンの発送品は、月曜日に当社の倉庫に届く予定だ。 ほかの選択肢：budget（予算）、deadline（締め切り）、applicant（応募者）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00014-en2ja-1",
+      "version": 1,
+      "wordId": "w00014",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "applicant"
+      },
+      "choices": [
+        {
+          "text": "顧客",
+          "fromWordId": "w00005",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "供給業者",
+          "fromWordId": "w00006",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "部署",
+          "fromWordId": "w00010",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "応募者",
+          "fromWordId": "w00014",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "applicant（名詞）は「応募者」「志願者」という意味です。例：More than 100 applicants applied for the position.（100人以上の応募者がその職に応募した。） ほかの選択肢：「顧客」は client、「供給業者」は supplier、「部署」は department。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00014-ja2en-1",
+      "version": 1,
+      "wordId": "w00014",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "応募者、志願者"
+      },
+      "choices": [
+        {
+          "text": "client",
+          "fromWordId": "w00005",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "supplier",
+          "fromWordId": "w00006",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "facility",
+          "fromWordId": "w00011",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "applicant",
+          "fromWordId": "w00014",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "「応募者、志願者」は applicant（名詞）です。例：More than 100 applicants applied for the position.（100人以上の応募者がその職に応募した。） ほかの選択肢：client＝顧客、supplier＝供給業者、facility＝施設。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00014-cloze-1",
+      "version": 1,
+      "wordId": "w00014",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Each ___ for the position must send us a résumé and two references.",
+        "ja": "その職への応募者は、各自が履歴書と推薦状2通を送らなければならない。"
+      },
+      "choices": [
+        {
+          "text": "applicant",
+          "fromWordId": "w00014",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "supplier",
+          "fromWordId": "w00006",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "facility",
+          "fromWordId": "w00011",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "budget",
+          "fromWordId": "w00007",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "職（position）に対して履歴書を送るのは「応募者」です。 訳：その職への応募者は、各自が履歴書と推薦状2通を送らなければならない。 ほかの選択肢：supplier（供給業者）、facility（施設）、budget（予算）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00015-en2ja-1",
+      "version": 1,
+      "wordId": "w00015",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "revenue"
+      },
+      "choices": [
+        {
+          "text": "収益",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "予算",
+          "fromWordId": "w00007",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "割引",
+          "fromWordId": "w00016",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "返金",
+          "fromWordId": "w00004",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "revenue（名詞）は「収益」「歳入」という意味です。例：The company's revenue increased by 10 percent last year.（その会社の収益は昨年10パーセント増えた。） ほかの選択肢：「予算」は budget、「割引」は discount、「返金」は refund。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00015-ja2en-1",
+      "version": 1,
+      "wordId": "w00015",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "収益"
+      },
+      "choices": [
+        {
+          "text": "revenue",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "budget",
+          "fromWordId": "w00007",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "discount",
+          "fromWordId": "w00016",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "invoice",
+          "fromWordId": "w00001",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "「収益」は revenue（名詞）です。例：The company's revenue increased by 10 percent last year.（その会社の収益は昨年10パーセント増えた。） ほかの選択肢：budget＝予算、discount＝割引、invoice＝請求書。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00015-cloze-1",
+      "version": 1,
+      "wordId": "w00015",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Thanks to strong sales overseas, our annual ___ reached a record high.",
+        "ja": "海外での好調な売り上げのおかげで、当社の年間収益は過去最高に達した。"
+      },
+      "choices": [
+        {
+          "text": "applicant",
+          "fromWordId": "w00014",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "revenue",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "deadline",
+          "fromWordId": "w00008",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "facility",
+          "fromWordId": "w00011",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "売り上げが好調な結果として「過去最高に達する」のは、会社に入るお金である「収益」です。 訳：海外での好調な売り上げのおかげで、当社の年間収益は過去最高に達した。 ほかの選択肢：applicant（応募者）、deadline（締め切り）、facility（施設）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00016-en2ja-1",
+      "version": 1,
+      "wordId": "w00016",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "discount"
+      },
+      "choices": [
+        {
+          "text": "返金",
+          "fromWordId": "w00004",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "割引",
+          "fromWordId": "w00016",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "領収書",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "収益",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "discount（名詞）は「割引」という意味です。例：Members receive a 15 percent discount on all items.（会員は全商品が15パーセント割引になる。） ほかの選択肢：「返金」は refund、「領収書」は receipt、「収益」は revenue。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00016-ja2en-1",
+      "version": 1,
+      "wordId": "w00016",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "割引"
+      },
+      "choices": [
+        {
+          "text": "refund",
+          "fromWordId": "w00004",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "discount",
+          "fromWordId": "w00016",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "receipt",
+          "fromWordId": "w00002",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "revenue",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「割引」は discount（名詞）です。例：Members receive a 15 percent discount on all items.（会員は全商品が15パーセント割引になる。） ほかの選択肢：refund＝返金、receipt＝領収書、revenue＝収益。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00016-cloze-1",
+      "version": 1,
+      "wordId": "w00016",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Customers who order before Friday will get a 20 percent ___ on their purchase.",
+        "ja": "金曜日までに注文した客は、購入品が20パーセント割引になる。"
+      },
+      "choices": [
+        {
+          "text": "deadline",
+          "fromWordId": "w00008",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "revenue",
+          "fromWordId": "w00015",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "discount",
+          "fromWordId": "w00016",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "inventory",
+          "fromWordId": "w00012",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "「20パーセント」と組み合わせて購入品にかかるものは「割引」です。 訳：金曜日までに注文した客は、購入品が20パーセント割引になる。 ほかの選択肢：deadline（締め切り）、revenue（収益）、inventory（在庫）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00017-en2ja-1",
+      "version": 1,
+      "wordId": "w00017",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "submit"
+      },
+      "choices": [
+        {
+          "text": "確認する",
+          "fromWordId": "w00018",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "承認する",
+          "fromWordId": "w00022",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "提出する",
+          "fromWordId": "w00017",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "延期する",
+          "fromWordId": "w00021",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "submit（動詞）は「提出する」という意味です。例：All employees must submit their travel expenses by the end of the month.（全従業員は月末までに出張経費を提出しなければならない。） ほかの選択肢：「確認する」は confirm、「承認する」は approve、「延期する」は postpone。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00017-ja2en-1",
+      "version": 1,
+      "wordId": "w00017",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "提出する"
+      },
+      "choices": [
+        {
+          "text": "confirm",
+          "fromWordId": "w00018",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "approve",
+          "fromWordId": "w00022",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "submit",
+          "fromWordId": "w00017",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "announce",
+          "fromWordId": "w00029",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "「提出する」は submit（動詞）です。例：All employees must submit their travel expenses by the end of the month.（全従業員は月末までに出張経費を提出しなければならない。） ほかの選択肢：confirm＝確認する、approve＝承認する、announce＝発表する。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00017-cloze-1",
+      "version": 1,
+      "wordId": "w00017",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Applicants must ___ their forms online by June 30.",
+        "ja": "応募者は6月30日までに、オンラインで書類を提出しなければならない。"
+      },
+      "choices": [
+        {
+          "text": "attend",
+          "fromWordId": "w00020",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "hire",
+          "fromWordId": "w00025",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "renovate",
+          "fromWordId": "w00027",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "submit",
+          "fromWordId": "w00017",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "期日までに書類（forms）をどうするかを考えると「提出する」が入ります。 訳：応募者は6月30日までに、オンラインで書類を提出しなければならない。 ほかの選択肢：attend（出席する）、hire（雇う）、renovate（改装する）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00018-en2ja-1",
+      "version": 1,
+      "wordId": "w00018",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "confirm"
+      },
+      "choices": [
+        {
+          "text": "必要とする",
+          "fromWordId": "w00019",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "予約する",
+          "fromWordId": "w00023",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "延長する",
+          "fromWordId": "w00030",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "確認する",
+          "fromWordId": "w00018",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "confirm（動詞）は「確認する」「確定する」という意味です。例：Please call the hotel to confirm your reservation.（ホテルに電話して予約を確認してください。） ほかの選択肢：「必要とする」は require、「予約する」は reserve、「延長する」は extend。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00018-ja2en-1",
+      "version": 1,
+      "wordId": "w00018",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "（予約や事実を）確認する"
+      },
+      "choices": [
+        {
+          "text": "reserve",
+          "fromWordId": "w00023",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "require",
+          "fromWordId": "w00019",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "extend",
+          "fromWordId": "w00030",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "confirm",
+          "fromWordId": "w00018",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "「（予約や事実を）確認する」は confirm（動詞）です。例：Please call the hotel to confirm your reservation.（ホテルに電話して予約を確認してください。） ほかの選択肢：reserve＝予約する、require＝必要とする、extend＝延長する。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00018-cloze-1",
+      "version": 1,
+      "wordId": "w00018",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Could you ___ that the meeting will start at 10 a.m. tomorrow?",
+        "ja": "明日の会議が午前10時に始まることを確認していただけますか。"
+      },
+      "choices": [
+        {
+          "text": "confirm",
+          "fromWordId": "w00018",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "renovate",
+          "fromWordId": "w00027",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "hire",
+          "fromWordId": "w00025",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "deliver",
+          "fromWordId": "w00024",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "that 節（〜ということ）を目的語にとり、意味が通るのは「確認する」です。 訳：明日の会議が午前10時に始まることを確認していただけますか。 ほかの選択肢：renovate（改装する）、hire（雇う）、deliver（配達する）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00019-en2ja-1",
+      "version": 1,
+      "wordId": "w00019",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "require"
+      },
+      "choices": [
+        {
+          "text": "必要とする",
+          "fromWordId": "w00019",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "確認する",
+          "fromWordId": "w00018",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "購入する",
+          "fromWordId": "w00026",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "出席する",
+          "fromWordId": "w00020",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "require（動詞）は「必要とする」「要求する」という意味です。例：This job requires at least three years of experience.（この仕事には少なくとも3年の経験が必要だ。） ほかの選択肢：「確認する」は confirm、「購入する」は purchase、「出席する」は attend。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00019-ja2en-1",
+      "version": 1,
+      "wordId": "w00019",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "必要とする、要求する"
+      },
+      "choices": [
+        {
+          "text": "require",
+          "fromWordId": "w00019",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "purchase",
+          "fromWordId": "w00026",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "attend",
+          "fromWordId": "w00020",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "extend",
+          "fromWordId": "w00030",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "「必要とする、要求する」は require（動詞）です。例：This job requires at least three years of experience.（この仕事には少なくとも3年の経験が必要だ。） ほかの選択肢：purchase＝購入する、attend＝出席する、extend＝延長する。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00019-cloze-1",
+      "version": 1,
+      "wordId": "w00019",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "All visitors are ___ to wear a badge while in the building.",
+        "ja": "訪問者は全員、建物内では名札を着用することが求められる。"
+      },
+      "choices": [
+        {
+          "text": "postponed",
+          "fromWordId": "w00021",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "required",
+          "fromWordId": "w00019",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "renovated",
+          "fromWordId": "w00027",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "delivered",
+          "fromWordId": "w00024",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "be required to do で「〜することが求められる」。人を主語にして意味が通るのは required です。 訳：訪問者は全員、建物内では名札を着用することが求められる。 ほかの選択肢：postponed（延期する）、renovated（改装する）、delivered（配達する）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00020-en2ja-1",
+      "version": 1,
+      "wordId": "w00020",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "attend"
+      },
+      "choices": [
+        {
+          "text": "発表する",
+          "fromWordId": "w00029",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "延期する",
+          "fromWordId": "w00021",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "出席する",
+          "fromWordId": "w00020",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "雇う",
+          "fromWordId": "w00025",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "attend（動詞）は「出席する」「参加する」という意味です。例：More than 200 people attended the conference.（200人以上がその会議に出席した。） ほかの選択肢：「発表する」は announce、「延期する」は postpone、「雇う」は hire。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00020-ja2en-1",
+      "version": 1,
+      "wordId": "w00020",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "出席する、参加する"
+      },
+      "choices": [
+        {
+          "text": "announce",
+          "fromWordId": "w00029",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "postpone",
+          "fromWordId": "w00021",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "attend",
+          "fromWordId": "w00020",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "reserve",
+          "fromWordId": "w00023",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "「出席する、参加する」は attend（動詞）です。例：More than 200 people attended the conference.（200人以上がその会議に出席した。） ほかの選択肢：announce＝発表する、postpone＝延期する、reserve＝予約する。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00020-cloze-1",
+      "version": 1,
+      "wordId": "w00020",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Unfortunately, I cannot ___ tomorrow's meeting because I will be on a business trip.",
+        "ja": "残念ながら、出張中のため明日の会議には出席できません。"
+      },
+      "choices": [
+        {
+          "text": "purchase",
+          "fromWordId": "w00026",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "renovate",
+          "fromWordId": "w00027",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "hire",
+          "fromWordId": "w00025",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "attend",
+          "fromWordId": "w00020",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "出張中なので会議に「出席できない」という意味になります。attend は前置詞なしで目的語をとります。 訳：残念ながら、出張中のため明日の会議には出席できません。 ほかの選択肢：purchase（購入する）、renovate（改装する）、hire（雇う）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00021-en2ja-1",
+      "version": 1,
+      "wordId": "w00021",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "postpone"
+      },
+      "choices": [
+        {
+          "text": "発表する",
+          "fromWordId": "w00029",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "延長する",
+          "fromWordId": "w00030",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "承認する",
+          "fromWordId": "w00022",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "延期する",
+          "fromWordId": "w00021",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "postpone（動詞）は「延期する」という意味です。例：The game was postponed because of heavy rain.（その試合は大雨のため延期された。） ほかの選択肢：「発表する」は announce、「延長する」は extend、「承認する」は approve。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00021-ja2en-1",
+      "version": 1,
+      "wordId": "w00021",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "延期する"
+      },
+      "choices": [
+        {
+          "text": "extend",
+          "fromWordId": "w00030",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "reserve",
+          "fromWordId": "w00023",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "approve",
+          "fromWordId": "w00022",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "postpone",
+          "fromWordId": "w00021",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "「延期する」は postpone（動詞）です。例：The game was postponed because of heavy rain.（その試合は大雨のため延期された。） ほかの選択肢：extend＝延長する、reserve＝予約する、approve＝承認する。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00021-cloze-1",
+      "version": 1,
+      "wordId": "w00021",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The outdoor event has been ___ until next Saturday due to the weather forecast.",
+        "ja": "天気予報を受けて、屋外イベントは次の土曜日まで延期された。"
+      },
+      "choices": [
+        {
+          "text": "postponed",
+          "fromWordId": "w00021",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "inquired",
+          "fromWordId": "w00028",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "hired",
+          "fromWordId": "w00025",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "purchased",
+          "fromWordId": "w00026",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "天気が理由で予定を「次の土曜日まで」ずらすので「延期する」の過去分詞 postponed です。extend（延長する）との違いに注意しましょう。 訳：天気予報を受けて、屋外イベントは次の土曜日まで延期された。 ほかの選択肢：inquired（問い合わせる）、hired（雇う）、purchased（購入する）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00022-en2ja-1",
+      "version": 1,
+      "wordId": "w00022",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "approve"
+      },
+      "choices": [
+        {
+          "text": "承認する",
+          "fromWordId": "w00022",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "提出する",
+          "fromWordId": "w00017",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "必要とする",
+          "fromWordId": "w00019",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "問い合わせる",
+          "fromWordId": "w00028",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "approve（動詞）は「承認する」「賛成する」という意味です。例：The manager approved the new budget.（部長は新しい予算を承認した。） ほかの選択肢：「提出する」は submit、「必要とする」は require、「問い合わせる」は inquire。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00022-ja2en-1",
+      "version": 1,
+      "wordId": "w00022",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "承認する"
+      },
+      "choices": [
+        {
+          "text": "approve",
+          "fromWordId": "w00022",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "submit",
+          "fromWordId": "w00017",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "confirm",
+          "fromWordId": "w00018",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "announce",
+          "fromWordId": "w00029",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "「承認する」は approve（動詞）です。例：The manager approved the new budget.（部長は新しい予算を承認した。） ほかの選択肢：submit＝提出する、confirm＝確認する、announce＝発表する。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00022-cloze-1",
+      "version": 1,
+      "wordId": "w00022",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The board of directors finally ___ the plan to open a new branch in Osaka.",
+        "ja": "取締役会はついに、大阪に新しい支店を開く計画を承認した。"
+      },
+      "choices": [
+        {
+          "text": "attended",
+          "fromWordId": "w00020",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "approved",
+          "fromWordId": "w00022",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "inquired",
+          "fromWordId": "w00028",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "delivered",
+          "fromWordId": "w00024",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "取締役会が計画（plan）に対して行うことなので「承認した」が入ります。 訳：取締役会はついに、大阪に新しい支店を開く計画を承認した。 ほかの選択肢：attended（出席する）、inquired（問い合わせる）、delivered（配達する）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00023-en2ja-1",
+      "version": 1,
+      "wordId": "w00023",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "reserve"
+      },
+      "choices": [
+        {
+          "text": "購入する",
+          "fromWordId": "w00026",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "予約する",
+          "fromWordId": "w00023",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "確認する",
+          "fromWordId": "w00018",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "配達する",
+          "fromWordId": "w00024",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "reserve（動詞）は「予約する」「取っておく」という意味です。例：I'd like to reserve a table for four at seven o'clock.（7時に4人分の席を予約したいのですが。） ほかの選択肢：「購入する」は purchase、「確認する」は confirm、「配達する」は deliver。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00023-ja2en-1",
+      "version": 1,
+      "wordId": "w00023",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "予約する"
+      },
+      "choices": [
+        {
+          "text": "purchase",
+          "fromWordId": "w00026",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "reserve",
+          "fromWordId": "w00023",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "confirm",
+          "fromWordId": "w00018",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "deliver",
+          "fromWordId": "w00024",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「予約する」は reserve（動詞）です。例：I'd like to reserve a table for four at seven o'clock.（7時に4人分の席を予約したいのですが。） ほかの選択肢：purchase＝購入する、confirm＝確認する、deliver＝配達する。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00023-cloze-1",
+      "version": 1,
+      "wordId": "w00023",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "If you want a room with an ocean view, you should ___ it at least one month in advance.",
+        "ja": "海の見える部屋がよいなら、少なくとも1か月前に予約したほうがよい。"
+      },
+      "choices": [
+        {
+          "text": "attend",
+          "fromWordId": "w00020",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "inquire",
+          "fromWordId": "w00028",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "reserve",
+          "fromWordId": "w00023",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "hire",
+          "fromWordId": "w00025",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "部屋を「前もって（in advance）」どうするかを考えると「予約する」です。 訳：海の見える部屋がよいなら、少なくとも1か月前に予約したほうがよい。 ほかの選択肢：attend（出席する）、inquire（問い合わせる）、hire（雇う）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00024-en2ja-1",
+      "version": 1,
+      "wordId": "w00024",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "deliver"
+      },
+      "choices": [
+        {
+          "text": "購入する",
+          "fromWordId": "w00026",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "予約する",
+          "fromWordId": "w00023",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "配達する",
+          "fromWordId": "w00024",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "提出する",
+          "fromWordId": "w00017",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "deliver（動詞）は「配達する」「届ける」という意味です。例：The package will be delivered tomorrow morning.（その荷物は明日の朝に配達される。） ほかの選択肢：「購入する」は purchase、「予約する」は reserve、「提出する」は submit。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00024-ja2en-1",
+      "version": 1,
+      "wordId": "w00024",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "配達する、届ける"
+      },
+      "choices": [
+        {
+          "text": "purchase",
+          "fromWordId": "w00026",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "submit",
+          "fromWordId": "w00017",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "deliver",
+          "fromWordId": "w00024",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "extend",
+          "fromWordId": "w00030",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "「配達する、届ける」は deliver（動詞）です。例：The package will be delivered tomorrow morning.（その荷物は明日の朝に配達される。） ほかの選択肢：purchase＝購入する、submit＝提出する、extend＝延長する。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00024-cloze-1",
+      "version": 1,
+      "wordId": "w00024",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The furniture store will ___ the sofa to your home free of charge.",
+        "ja": "その家具店は、ソファを無料で自宅まで配達してくれる。"
+      },
+      "choices": [
+        {
+          "text": "require",
+          "fromWordId": "w00019",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "attend",
+          "fromWordId": "w00020",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "inquire",
+          "fromWordId": "w00028",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "deliver",
+          "fromWordId": "w00024",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "ソファを「自宅まで（to your home）」運ぶので「配達する」です。 訳：その家具店は、ソファを無料で自宅まで配達してくれる。 ほかの選択肢：require（必要とする）、attend（出席する）、inquire（問い合わせる）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00025-en2ja-1",
+      "version": 1,
+      "wordId": "w00025",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "hire"
+      },
+      "choices": [
+        {
+          "text": "出席する",
+          "fromWordId": "w00020",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "購入する",
+          "fromWordId": "w00026",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "承認する",
+          "fromWordId": "w00022",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "雇う",
+          "fromWordId": "w00025",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "hire（動詞）は「雇う」という意味です。例：The restaurant plans to hire five new staff members.（そのレストランは新しいスタッフを5人雇う予定だ。） ほかの選択肢：「出席する」は attend、「購入する」は purchase、「承認する」は approve。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00025-ja2en-1",
+      "version": 1,
+      "wordId": "w00025",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "雇う、雇用する"
+      },
+      "choices": [
+        {
+          "text": "attend",
+          "fromWordId": "w00020",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "approve",
+          "fromWordId": "w00022",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "extend",
+          "fromWordId": "w00030",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "hire",
+          "fromWordId": "w00025",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "「雇う、雇用する」は hire（動詞）です。例：The restaurant plans to hire five new staff members.（そのレストランは新しいスタッフを5人雇う予定だ。） ほかの選択肢：attend＝出席する、approve＝承認する、extend＝延長する。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00025-cloze-1",
+      "version": 1,
+      "wordId": "w00025",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Because business is growing, we need to ___ more sales representatives.",
+        "ja": "事業が拡大しているので、営業担当者をもっと雇う必要がある。"
+      },
+      "choices": [
+        {
+          "text": "hire",
+          "fromWordId": "w00025",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "renovate",
+          "fromWordId": "w00027",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "postpone",
+          "fromWordId": "w00021",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "inquire",
+          "fromWordId": "w00028",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "人（営業担当者）を目的語にとり、事業拡大に合うのは「雇う」です。 訳：事業が拡大しているので、営業担当者をもっと雇う必要がある。 ほかの選択肢：renovate（改装する）、postpone（延期する）、inquire（問い合わせる）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00026-en2ja-1",
+      "version": 1,
+      "wordId": "w00026",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "purchase"
+      },
+      "choices": [
+        {
+          "text": "購入する",
+          "fromWordId": "w00026",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "配達する",
+          "fromWordId": "w00024",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "予約する",
+          "fromWordId": "w00023",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "雇う",
+          "fromWordId": "w00025",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "purchase（動詞）は「購入する」という意味です。例：You can purchase tickets online or at the box office.（チケットはオンラインかチケット売り場で購入できる。） ほかの選択肢：「配達する」は deliver、「予約する」は reserve、「雇う」は hire。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00026-ja2en-1",
+      "version": 1,
+      "wordId": "w00026",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "購入する"
+      },
+      "choices": [
+        {
+          "text": "purchase",
+          "fromWordId": "w00026",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "deliver",
+          "fromWordId": "w00024",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "reserve",
+          "fromWordId": "w00023",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "require",
+          "fromWordId": "w00019",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "「購入する」は purchase（動詞）です。例：You can purchase tickets online or at the box office.（チケットはオンラインかチケット売り場で購入できる。） ほかの選択肢：deliver＝配達する、reserve＝予約する、require＝必要とする。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00026-cloze-1",
+      "version": 1,
+      "wordId": "w00026",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Customers who ___ more than three items will receive a free gift.",
+        "ja": "3点以上購入した客は、無料の景品がもらえる。"
+      },
+      "choices": [
+        {
+          "text": "attend",
+          "fromWordId": "w00020",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "purchase",
+          "fromWordId": "w00026",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "confirm",
+          "fromWordId": "w00018",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "postpone",
+          "fromWordId": "w00021",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「3点以上の商品（items）」を目的語にとるので「購入する」です。 訳：3点以上購入した客は、無料の景品がもらえる。 ほかの選択肢：attend（出席する）、confirm（確認する）、postpone（延期する）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00027-en2ja-1",
+      "version": 1,
+      "wordId": "w00027",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "renovate"
+      },
+      "choices": [
+        {
+          "text": "予約する",
+          "fromWordId": "w00023",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "改装する",
+          "fromWordId": "w00027",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "配達する",
+          "fromWordId": "w00024",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "延長する",
+          "fromWordId": "w00030",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "renovate（動詞）は「改装する」「修復する」という意味です。例：The hotel was renovated last year.（そのホテルは昨年改装された。） ほかの選択肢：「予約する」は reserve、「配達する」は deliver、「延長する」は extend。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00027-ja2en-1",
+      "version": 1,
+      "wordId": "w00027",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "（建物などを）改装する"
+      },
+      "choices": [
+        {
+          "text": "extend",
+          "fromWordId": "w00030",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "renovate",
+          "fromWordId": "w00027",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "deliver",
+          "fromWordId": "w00024",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "postpone",
+          "fromWordId": "w00021",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「（建物などを）改装する」は renovate（動詞）です。例：The hotel was renovated last year.（そのホテルは昨年改装された。） ほかの選択肢：extend＝延長する、deliver＝配達する、postpone＝延期する。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00027-cloze-1",
+      "version": 1,
+      "wordId": "w00027",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The museum is closed this month because workers are ___ the main hall.",
+        "ja": "作業員が大ホールを改装しているため、美術館は今月閉館している。"
+      },
+      "choices": [
+        {
+          "text": "attending",
+          "fromWordId": "w00020",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "inquiring",
+          "fromWordId": "w00028",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "renovating",
+          "fromWordId": "w00027",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "approving",
+          "fromWordId": "w00022",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "作業員（workers）が建物の一部に対して行う作業なので「改装している」です。 訳：作業員が大ホールを改装しているため、美術館は今月閉館している。 ほかの選択肢：attending（出席する）、inquiring（問い合わせる）、approving（承認する）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00028-en2ja-1",
+      "version": 1,
+      "wordId": "w00028",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "inquire"
+      },
+      "choices": [
+        {
+          "text": "確認する",
+          "fromWordId": "w00018",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "必要とする",
+          "fromWordId": "w00019",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "問い合わせる",
+          "fromWordId": "w00028",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "発表する",
+          "fromWordId": "w00029",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "inquire（動詞）は「問い合わせる」「尋ねる」という意味です。例：Several customers called to inquire about the new service.（何人かの客が、新しいサービスについて問い合わせるために電話してきた。） ほかの選択肢：「確認する」は confirm、「必要とする」は require、「発表する」は announce。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00028-ja2en-1",
+      "version": 1,
+      "wordId": "w00028",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "問い合わせる"
+      },
+      "choices": [
+        {
+          "text": "confirm",
+          "fromWordId": "w00018",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "require",
+          "fromWordId": "w00019",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "inquire",
+          "fromWordId": "w00028",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "announce",
+          "fromWordId": "w00029",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "「問い合わせる」は inquire（動詞）です。例：Several customers called to inquire about the new service.（何人かの客が、新しいサービスについて問い合わせるために電話してきた。） ほかの選択肢：confirm＝確認する、require＝必要とする、announce＝発表する。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00028-cloze-1",
+      "version": 1,
+      "wordId": "w00028",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "If you would like to ___ about job openings, please send an e-mail to our personnel office.",
+        "ja": "求人について問い合わせたい場合は、人事部にメールを送ってください。"
+      },
+      "choices": [
+        {
+          "text": "renovate",
+          "fromWordId": "w00027",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "purchase",
+          "fromWordId": "w00026",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "approve",
+          "fromWordId": "w00022",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "inquire",
+          "fromWordId": "w00028",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "inquire about で「〜について問い合わせる」。about と組み合わせて意味が通るのは inquire です。 訳：求人について問い合わせたい場合は、人事部にメールを送ってください。 ほかの選択肢：renovate（改装する）、purchase（購入する）、approve（承認する）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00029-en2ja-1",
+      "version": 1,
+      "wordId": "w00029",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "announce"
+      },
+      "choices": [
+        {
+          "text": "承認する",
+          "fromWordId": "w00022",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "確認する",
+          "fromWordId": "w00018",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "延期する",
+          "fromWordId": "w00021",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "発表する",
+          "fromWordId": "w00029",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "announce（動詞）は「発表する」「知らせる」という意味です。例：The company announced its plans to open ten new stores.（その会社は10店舗を新規開店する計画を発表した。） ほかの選択肢：「承認する」は approve、「確認する」は confirm、「延期する」は postpone。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00029-ja2en-1",
+      "version": 1,
+      "wordId": "w00029",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "発表する"
+      },
+      "choices": [
+        {
+          "text": "approve",
+          "fromWordId": "w00022",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "postpone",
+          "fromWordId": "w00021",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "inquire",
+          "fromWordId": "w00028",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "announce",
+          "fromWordId": "w00029",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "「発表する」は announce（動詞）です。例：The company announced its plans to open ten new stores.（その会社は10店舗を新規開店する計画を発表した。） ほかの選択肢：approve＝承認する、postpone＝延期する、inquire＝問い合わせる。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00029-cloze-1",
+      "version": 1,
+      "wordId": "w00029",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The president will ___ the name of the new director at the press conference.",
+        "ja": "社長は記者会見で、新しい部長の名前を発表する。"
+      },
+      "choices": [
+        {
+          "text": "announce",
+          "fromWordId": "w00029",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "require",
+          "fromWordId": "w00019",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "renovate",
+          "fromWordId": "w00027",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "deliver",
+          "fromWordId": "w00024",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "記者会見（press conference）で名前をどうするかを考えると「発表する」です。 訳：社長は記者会見で、新しい部長の名前を発表する。 ほかの選択肢：require（必要とする）、renovate（改装する）、deliver（配達する）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00030-en2ja-1",
+      "version": 1,
+      "wordId": "w00030",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "extend"
+      },
+      "choices": [
+        {
+          "text": "延期する",
+          "fromWordId": "w00021",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "延長する",
+          "fromWordId": "w00030",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "予約する",
+          "fromWordId": "w00023",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "必要とする",
+          "fromWordId": "w00019",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "extend（動詞）は「延長する」「広げる」という意味です。例：The store has extended its opening hours.（その店は営業時間を延長した。） ほかの選択肢：「延期する」は postpone、「予約する」は reserve、「必要とする」は require。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00030-ja2en-1",
+      "version": 1,
+      "wordId": "w00030",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "延長する"
+      },
+      "choices": [
+        {
+          "text": "postpone",
+          "fromWordId": "w00021",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "extend",
+          "fromWordId": "w00030",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "renovate",
+          "fromWordId": "w00027",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "deliver",
+          "fromWordId": "w00024",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「延長する」は extend（動詞）です。例：The store has extended its opening hours.（その店は営業時間を延長した。） ほかの選択肢：postpone＝延期する、renovate＝改装する、deliver＝配達する。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00030-cloze-1",
+      "version": 1,
+      "wordId": "w00030",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Because so many people visited, the museum decided to ___ the exhibition for another month.",
+        "ja": "来場者が非常に多かったため、美術館は展示会をさらに1か月延長することにした。"
+      },
+      "choices": [
+        {
+          "text": "inquire",
+          "fromWordId": "w00028",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "hire",
+          "fromWordId": "w00025",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "extend",
+          "fromWordId": "w00030",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "deliver",
+          "fromWordId": "w00024",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "「さらに1か月（for another month）」続けるので「延長する」です。 訳：来場者が非常に多かったため、美術館は展示会をさらに1か月延長することにした。 ほかの選択肢：inquire（問い合わせる）、hire（雇う）、deliver（配達する）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00031-en2ja-1",
+      "version": 1,
+      "wordId": "w00031",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "various"
+      },
+      "choices": [
+        {
+          "text": "必要な",
+          "fromWordId": "w00033",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "正確な",
+          "fromWordId": "w00034",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "さまざまな",
+          "fromWordId": "w00031",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "一時的な",
+          "fromWordId": "w00035",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "various（形容詞）は「さまざまな」「いろいろな」という意味です。例：The store sells various kinds of coffee.（その店はさまざまな種類のコーヒーを売っている。） ほかの選択肢：「必要な」は necessary、「正確な」は accurate、「一時的な」は temporary。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00031-ja2en-1",
+      "version": 1,
+      "wordId": "w00031",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "さまざまな"
+      },
+      "choices": [
+        {
+          "text": "necessary",
+          "fromWordId": "w00033",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "accurate",
+          "fromWordId": "w00034",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "various",
+          "fromWordId": "w00031",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "temporary",
+          "fromWordId": "w00035",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "「さまざまな」は various（形容詞）です。例：The store sells various kinds of coffee.（その店はさまざまな種類のコーヒーを売っている。） ほかの選択肢：necessary＝必要な、accurate＝正確な、temporary＝一時的な。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00031-cloze-1",
+      "version": 1,
+      "wordId": "w00031",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Our hotel offers ___ activities, including tennis, golf, and yoga.",
+        "ja": "当ホテルでは、テニス、ゴルフ、ヨガなど、さまざまなアクティビティを提供している。"
+      },
+      "choices": [
+        {
+          "text": "eligible",
+          "fromWordId": "w00042",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "accurate",
+          "fromWordId": "w00034",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "reliable",
+          "fromWordId": "w00038",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "various",
+          "fromWordId": "w00031",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "including 以下で複数の種類を挙げているので「さまざまな」が入ります。名詞の variety（多様性）も一緒に覚えましょう。 訳：当ホテルでは、テニス、ゴルフ、ヨガなど、さまざまなアクティビティを提供している。 ほかの選択肢：eligible（資格のある）、accurate（正確な）、reliable（信頼できる）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00032-en2ja-1",
+      "version": 1,
+      "wordId": "w00032",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "available"
+      },
+      "choices": [
+        {
+          "text": "便利な",
+          "fromWordId": "w00041",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "資格のある",
+          "fromWordId": "w00042",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "追加の",
+          "fromWordId": "w00040",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "利用できる",
+          "fromWordId": "w00032",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "available（形容詞）は「利用できる」「手が空いている」「入手できる」という意味です。例：The meeting room is available after 3 p.m.（会議室は午後3時以降なら使える。） ほかの選択肢：「便利な」は convenient、「資格のある」は eligible、「追加の」は additional。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00032-ja2en-1",
+      "version": 1,
+      "wordId": "w00032",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "利用できる、入手できる"
+      },
+      "choices": [
+        {
+          "text": "convenient",
+          "fromWordId": "w00041",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "eligible",
+          "fromWordId": "w00042",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "efficient",
+          "fromWordId": "w00037",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "available",
+          "fromWordId": "w00032",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "「利用できる、入手できる」は available（形容詞）です。例：The meeting room is available after 3 p.m.（会議室は午後3時以降なら使える。） ほかの選択肢：convenient＝便利な、eligible＝資格のある、efficient＝効率的な。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00032-cloze-1",
+      "version": 1,
+      "wordId": "w00032",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "I'm sorry, but Ms. Tanaka is not ___ right now because she is in a meeting.",
+        "ja": "申し訳ありませんが、田中は会議中のため、ただ今手が空いておりません。"
+      },
+      "choices": [
+        {
+          "text": "available",
+          "fromWordId": "w00032",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "annual",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "accurate",
+          "fromWordId": "w00034",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "previous",
+          "fromWordId": "w00039",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "人について使う available は「手が空いている、対応できる」の意味です。会議中なので対応できない、という文脈です。 訳：申し訳ありませんが、田中は会議中のため、ただ今手が空いておりません。 ほかの選択肢：annual（年1回の）、accurate（正確な）、previous（以前の）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00033-en2ja-1",
+      "version": 1,
+      "wordId": "w00033",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "necessary"
+      },
+      "choices": [
+        {
+          "text": "必要な",
+          "fromWordId": "w00033",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "利用できる",
+          "fromWordId": "w00032",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "さまざまな",
+          "fromWordId": "w00031",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "効率的な",
+          "fromWordId": "w00037",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "necessary（形容詞）は「必要な」という意味です。例：It is necessary to show your ID at the entrance.（入り口で身分証を見せる必要がある。） ほかの選択肢：「利用できる」は available、「さまざまな」は various、「効率的な」は efficient。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00033-ja2en-1",
+      "version": 1,
+      "wordId": "w00033",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "必要な"
+      },
+      "choices": [
+        {
+          "text": "necessary",
+          "fromWordId": "w00033",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "available",
+          "fromWordId": "w00032",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "various",
+          "fromWordId": "w00031",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "additional",
+          "fromWordId": "w00040",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "「必要な」は necessary（形容詞）です。例：It is necessary to show your ID at the entrance.（入り口で身分証を見せる必要がある。） ほかの選択肢：available＝利用できる、various＝さまざまな、additional＝追加の。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00033-cloze-1",
+      "version": 1,
+      "wordId": "w00033",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Please let me know if any changes to the schedule are ___.",
+        "ja": "予定の変更が必要であれば、知らせてください。"
+      },
+      "choices": [
+        {
+          "text": "annual",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "necessary",
+          "fromWordId": "w00033",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "previous",
+          "fromWordId": "w00039",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "eligible",
+          "fromWordId": "w00042",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「変更が〜であれば知らせて」という文なので、意味が通るのは「必要な」です。 訳：予定の変更が必要であれば、知らせてください。 ほかの選択肢：annual（年1回の）、previous（以前の）、eligible（資格のある）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00034-en2ja-1",
+      "version": 1,
+      "wordId": "w00034",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "accurate"
+      },
+      "choices": [
+        {
+          "text": "信頼できる",
+          "fromWordId": "w00038",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "正確な",
+          "fromWordId": "w00034",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "効率的な",
+          "fromWordId": "w00037",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "以前の",
+          "fromWordId": "w00039",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "accurate（形容詞）は「正確な」という意味です。例：The weather report was not very accurate.（天気予報はあまり正確ではなかった。） ほかの選択肢：「信頼できる」は reliable、「効率的な」は efficient、「以前の」は previous。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00034-ja2en-1",
+      "version": 1,
+      "wordId": "w00034",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "正確な"
+      },
+      "choices": [
+        {
+          "text": "reliable",
+          "fromWordId": "w00038",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "accurate",
+          "fromWordId": "w00034",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "efficient",
+          "fromWordId": "w00037",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "annual",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「正確な」は accurate（形容詞）です。例：The weather report was not very accurate.（天気予報はあまり正確ではなかった。） ほかの選択肢：reliable＝信頼できる、efficient＝効率的な、annual＝年1回の。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00034-cloze-1",
+      "version": 1,
+      "wordId": "w00034",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Please make sure the figures in the report are ___ before you send it to the client.",
+        "ja": "顧客に送る前に、報告書の数字が正確か確認してください。"
+      },
+      "choices": [
+        {
+          "text": "eligible",
+          "fromWordId": "w00042",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "annual",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "accurate",
+          "fromWordId": "w00034",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "convenient",
+          "fromWordId": "w00041",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "数字（figures）について確認する内容なので「正確な」です。 訳：顧客に送る前に、報告書の数字が正確か確認してください。 ほかの選択肢：eligible（資格のある）、annual（年1回の）、convenient（便利な）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00035-en2ja-1",
+      "version": 1,
+      "wordId": "w00035",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "temporary"
+      },
+      "choices": [
+        {
+          "text": "年1回の",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "以前の",
+          "fromWordId": "w00039",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "一時的な",
+          "fromWordId": "w00035",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "追加の",
+          "fromWordId": "w00040",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "temporary（形容詞）は「一時的な」「臨時の」という意味です。例：She found a temporary job for the summer.（彼女は夏の間の臨時の仕事を見つけた。） ほかの選択肢：「年1回の」は annual、「以前の」は previous、「追加の」は additional。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00035-ja2en-1",
+      "version": 1,
+      "wordId": "w00035",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "一時的な、臨時の"
+      },
+      "choices": [
+        {
+          "text": "annual",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "previous",
+          "fromWordId": "w00039",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "temporary",
+          "fromWordId": "w00035",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "reliable",
+          "fromWordId": "w00038",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "「一時的な、臨時の」は temporary（形容詞）です。例：She found a temporary job for the summer.（彼女は夏の間の臨時の仕事を見つけた。） ほかの選択肢：annual＝年1回の、previous＝以前の、reliable＝信頼できる。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00035-cloze-1",
+      "version": 1,
+      "wordId": "w00035",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The main gate is closed, so please use the ___ entrance on the east side until next week.",
+        "ja": "正門が閉まっているので、来週までは東側の臨時の入口を使ってください。"
+      },
+      "choices": [
+        {
+          "text": "eligible",
+          "fromWordId": "w00042",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "annual",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "accurate",
+          "fromWordId": "w00034",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "temporary",
+          "fromWordId": "w00035",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "「来週まで」だけ使う入口なので「臨時の、一時的な」が入ります。 訳：正門が閉まっているので、来週までは東側の臨時の入口を使ってください。 ほかの選択肢：eligible（資格のある）、annual（年1回の）、accurate（正確な）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00036-en2ja-1",
+      "version": 1,
+      "wordId": "w00036",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "annual"
+      },
+      "choices": [
+        {
+          "text": "一時的な",
+          "fromWordId": "w00035",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "以前の",
+          "fromWordId": "w00039",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "追加の",
+          "fromWordId": "w00040",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "年1回の",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "annual（形容詞）は「年1回の」「毎年の」「年間の」という意味です。例：The company holds its annual meeting in June.（その会社は年次総会を6月に開く。） ほかの選択肢：「一時的な」は temporary、「以前の」は previous、「追加の」は additional。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00036-ja2en-1",
+      "version": 1,
+      "wordId": "w00036",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "年1回の、毎年の"
+      },
+      "choices": [
+        {
+          "text": "temporary",
+          "fromWordId": "w00035",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "previous",
+          "fromWordId": "w00039",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "additional",
+          "fromWordId": "w00040",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "annual",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "「年1回の、毎年の」は annual（形容詞）です。例：The company holds its annual meeting in June.（その会社は年次総会を6月に開く。） ほかの選択肢：temporary＝一時的な、previous＝以前の、additional＝追加の。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00036-cloze-1",
+      "version": 1,
+      "wordId": "w00036",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The ___ sales conference takes place every April in Tokyo.",
+        "ja": "年次営業会議は、毎年4月に東京で開かれる。"
+      },
+      "choices": [
+        {
+          "text": "annual",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "accurate",
+          "fromWordId": "w00034",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "eligible",
+          "fromWordId": "w00042",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "convenient",
+          "fromWordId": "w00041",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "「毎年4月に（every April）」開かれるので「年1回の」が入ります。 訳：年次営業会議は、毎年4月に東京で開かれる。 ほかの選択肢：accurate（正確な）、eligible（資格のある）、convenient（便利な）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00037-en2ja-1",
+      "version": 1,
+      "wordId": "w00037",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "efficient"
+      },
+      "choices": [
+        {
+          "text": "効率的な",
+          "fromWordId": "w00037",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "信頼できる",
+          "fromWordId": "w00038",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "便利な",
+          "fromWordId": "w00041",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "正確な",
+          "fromWordId": "w00034",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "efficient（形容詞）は「効率的な」「有能な」という意味です。例：The new system is more efficient than the old one.（新しいシステムは古いものより効率的だ。） ほかの選択肢：「信頼できる」は reliable、「便利な」は convenient、「正確な」は accurate。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00037-ja2en-1",
+      "version": 1,
+      "wordId": "w00037",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "効率的な"
+      },
+      "choices": [
+        {
+          "text": "efficient",
+          "fromWordId": "w00037",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "reliable",
+          "fromWordId": "w00038",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "convenient",
+          "fromWordId": "w00041",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "accurate",
+          "fromWordId": "w00034",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "「効率的な」は efficient（形容詞）です。例：The new system is more efficient than the old one.（新しいシステムは古いものより効率的だ。） ほかの選択肢：reliable＝信頼できる、convenient＝便利な、accurate＝正確な。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00037-cloze-1",
+      "version": 1,
+      "wordId": "w00037",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The new machine is more ___ and uses 30 percent less energy.",
+        "ja": "新しい機械はより効率的で、使う電力が30パーセント少ない。"
+      },
+      "choices": [
+        {
+          "text": "eligible",
+          "fromWordId": "w00042",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "efficient",
+          "fromWordId": "w00037",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "previous",
+          "fromWordId": "w00039",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "temporary",
+          "fromWordId": "w00035",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "少ないエネルギーで動くことを表すので「効率的な」です。 訳：新しい機械はより効率的で、使う電力が30パーセント少ない。 ほかの選択肢：eligible（資格のある）、previous（以前の）、temporary（一時的な）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00038-en2ja-1",
+      "version": 1,
+      "wordId": "w00038",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "reliable"
+      },
+      "choices": [
+        {
+          "text": "正確な",
+          "fromWordId": "w00034",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "信頼できる",
+          "fromWordId": "w00038",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "効率的な",
+          "fromWordId": "w00037",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "資格のある",
+          "fromWordId": "w00042",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "reliable（形容詞）は「信頼できる」「頼りになる」という意味です。例：We need a reliable person to manage the project.（プロジェクトを管理する、信頼できる人が必要だ。） ほかの選択肢：「正確な」は accurate、「効率的な」は efficient、「資格のある」は eligible。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00038-ja2en-1",
+      "version": 1,
+      "wordId": "w00038",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "信頼できる"
+      },
+      "choices": [
+        {
+          "text": "accurate",
+          "fromWordId": "w00034",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "reliable",
+          "fromWordId": "w00038",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "efficient",
+          "fromWordId": "w00037",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "eligible",
+          "fromWordId": "w00042",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「信頼できる」は reliable（形容詞）です。例：We need a reliable person to manage the project.（プロジェクトを管理する、信頼できる人が必要だ。） ほかの選択肢：accurate＝正確な、efficient＝効率的な、eligible＝資格のある。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00038-cloze-1",
+      "version": 1,
+      "wordId": "w00038",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "He is a ___ worker who always finishes his tasks on time.",
+        "ja": "彼はいつも期限どおりに仕事を終える、頼りになる働き手だ。"
+      },
+      "choices": [
+        {
+          "text": "annual",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "previous",
+          "fromWordId": "w00039",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "reliable",
+          "fromWordId": "w00038",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "convenient",
+          "fromWordId": "w00041",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "いつも期限を守る人なので「信頼できる、頼りになる」が入ります。 訳：彼はいつも期限どおりに仕事を終える、頼りになる働き手だ。 ほかの選択肢：annual（年1回の）、previous（以前の）、convenient（便利な）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00039-en2ja-1",
+      "version": 1,
+      "wordId": "w00039",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "previous"
+      },
+      "choices": [
+        {
+          "text": "年1回の",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "一時的な",
+          "fromWordId": "w00035",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "以前の",
+          "fromWordId": "w00039",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "追加の",
+          "fromWordId": "w00040",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "previous（形容詞）は「以前の」「前の」という意味です。例：I met her at the previous meeting.（私は前回の会議で彼女に会った。） ほかの選択肢：「年1回の」は annual、「一時的な」は temporary、「追加の」は additional。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00039-ja2en-1",
+      "version": 1,
+      "wordId": "w00039",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "以前の、前の"
+      },
+      "choices": [
+        {
+          "text": "annual",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "temporary",
+          "fromWordId": "w00035",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "previous",
+          "fromWordId": "w00039",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "additional",
+          "fromWordId": "w00040",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "「以前の、前の」は previous（形容詞）です。例：I met her at the previous meeting.（私は前回の会議で彼女に会った。） ほかの選択肢：annual＝年1回の、temporary＝一時的な、additional＝追加の。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00039-cloze-1",
+      "version": 1,
+      "wordId": "w00039",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "As I mentioned in my ___ e-mail, the meeting will be held in Room 5.",
+        "ja": "前回のメールでお伝えしたとおり、会議は5号室で開かれます。"
+      },
+      "choices": [
+        {
+          "text": "eligible",
+          "fromWordId": "w00042",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "reliable",
+          "fromWordId": "w00038",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "efficient",
+          "fromWordId": "w00037",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "previous",
+          "fromWordId": "w00039",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "「すでに述べたとおり（As I mentioned）」とあるので、以前に送った「前回の」メールです。 訳：前回のメールでお伝えしたとおり、会議は5号室で開かれます。 ほかの選択肢：eligible（資格のある）、reliable（信頼できる）、efficient（効率的な）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00040-en2ja-1",
+      "version": 1,
+      "wordId": "w00040",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "additional"
+      },
+      "choices": [
+        {
+          "text": "追加の",
+          "fromWordId": "w00040",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "利用できる",
+          "fromWordId": "w00032",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "必要な",
+          "fromWordId": "w00033",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "年1回の",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "additional（形容詞）は「追加の」という意味です。例：There is no additional charge for breakfast.（朝食に追加料金はかからない。） ほかの選択肢：「利用できる」は available、「必要な」は necessary、「年1回の」は annual。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00040-ja2en-1",
+      "version": 1,
+      "wordId": "w00040",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "追加の"
+      },
+      "choices": [
+        {
+          "text": "additional",
+          "fromWordId": "w00040",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "available",
+          "fromWordId": "w00032",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "necessary",
+          "fromWordId": "w00033",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "annual",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "「追加の」は additional（形容詞）です。例：There is no additional charge for breakfast.（朝食に追加料金はかからない。） ほかの選択肢：available＝利用できる、necessary＝必要な、annual＝年1回の。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00040-cloze-1",
+      "version": 1,
+      "wordId": "w00040",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "For ___ information, please visit our Web site.",
+        "ja": "さらに詳しい情報は、当社のウェブサイトをご覧ください。"
+      },
+      "choices": [
+        {
+          "text": "eligible",
+          "fromWordId": "w00042",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "additional",
+          "fromWordId": "w00040",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "temporary",
+          "fromWordId": "w00035",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "previous",
+          "fromWordId": "w00039",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "For additional information で「さらに詳しい（追加の）情報は」という決まった言い方です。 訳：さらに詳しい情報は、当社のウェブサイトをご覧ください。 ほかの選択肢：eligible（資格のある）、temporary（一時的な）、previous（以前の）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00041-en2ja-1",
+      "version": 1,
+      "wordId": "w00041",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "convenient"
+      },
+      "choices": [
+        {
+          "text": "利用できる",
+          "fromWordId": "w00032",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "便利な",
+          "fromWordId": "w00041",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "効率的な",
+          "fromWordId": "w00037",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "信頼できる",
+          "fromWordId": "w00038",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "convenient（形容詞）は「便利な」「都合のよい」という意味です。例：The hotel is in a convenient location near the station.（そのホテルは駅に近い便利な場所にある。） ほかの選択肢：「利用できる」は available、「効率的な」は efficient、「信頼できる」は reliable。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00041-ja2en-1",
+      "version": 1,
+      "wordId": "w00041",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "便利な、都合のよい"
+      },
+      "choices": [
+        {
+          "text": "available",
+          "fromWordId": "w00032",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "convenient",
+          "fromWordId": "w00041",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "efficient",
+          "fromWordId": "w00037",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "reliable",
+          "fromWordId": "w00038",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「便利な、都合のよい」は convenient（形容詞）です。例：The hotel is in a convenient location near the station.（そのホテルは駅に近い便利な場所にある。） ほかの選択肢：available＝利用できる、efficient＝効率的な、reliable＝信頼できる。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00041-cloze-1",
+      "version": 1,
+      "wordId": "w00041",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Please let us know what time would be most ___ for you to visit our office.",
+        "ja": "当社にお越しいただくのに、何時がいちばんご都合がよいか教えてください。"
+      },
+      "choices": [
+        {
+          "text": "accurate",
+          "fromWordId": "w00034",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "annual",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "convenient",
+          "fromWordId": "w00041",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "eligible",
+          "fromWordId": "w00042",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "時間について「あなたにとって〜」と尋ねているので「都合のよい」が入ります。convenient は人を主語にせず、時間や場所を主語にします。 訳：当社にお越しいただくのに、何時がいちばんご都合がよいか教えてください。 ほかの選択肢：accurate（正確な）、annual（年1回の）、eligible（資格のある）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00042-en2ja-1",
+      "version": 1,
+      "wordId": "w00042",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "eligible"
+      },
+      "choices": [
+        {
+          "text": "利用できる",
+          "fromWordId": "w00032",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "信頼できる",
+          "fromWordId": "w00038",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "資格のある",
+          "fromWordId": "w00042",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "必要な",
+          "fromWordId": "w00033",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "eligible（形容詞）は「資格のある」「適格な」という意味です。例：Full-time employees are eligible for the bonus.（正社員はそのボーナスを受け取る資格がある。） ほかの選択肢：「利用できる」は available、「信頼できる」は reliable、「必要な」は necessary。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00042-ja2en-1",
+      "version": 1,
+      "wordId": "w00042",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "資格のある、適格な"
+      },
+      "choices": [
+        {
+          "text": "available",
+          "fromWordId": "w00032",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "reliable",
+          "fromWordId": "w00038",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "eligible",
+          "fromWordId": "w00042",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "necessary",
+          "fromWordId": "w00033",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "「資格のある、適格な」は eligible（形容詞）です。例：Full-time employees are eligible for the bonus.（正社員はそのボーナスを受け取る資格がある。） ほかの選択肢：available＝利用できる、reliable＝信頼できる、necessary＝必要な。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00042-cloze-1",
+      "version": 1,
+      "wordId": "w00042",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Only customers who have spent more than $500 are ___ for the special discount.",
+        "ja": "500ドル以上使った顧客だけが、その特別割引を受ける資格がある。"
+      },
+      "choices": [
+        {
+          "text": "accurate",
+          "fromWordId": "w00034",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "annual",
+          "fromWordId": "w00036",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "previous",
+          "fromWordId": "w00039",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "eligible",
+          "fromWordId": "w00042",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "be eligible for で「〜を受ける資格がある」。条件を満たした人だけ、という文脈です。 訳：500ドル以上使った顧客だけが、その特別割引を受ける資格がある。 ほかの選択肢：accurate（正確な）、annual（年1回の）、previous（以前の）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00043-en2ja-1",
+      "version": 1,
+      "wordId": "w00043",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "despite"
+      },
+      "choices": [
+        {
+          "text": "〜の至る所に",
+          "fromWordId": "w00044",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜を除いて",
+          "fromWordId": "w00045",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜を越えて",
+          "fromWordId": "w00046",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜にもかかわらず",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "despite（前置詞）は「〜にもかかわらず」という意味です。例：Despite the rain, the event was a great success.（雨にもかかわらず、そのイベントは大成功だった。） ほかの選択肢：「〜の至る所に」は throughout、「〜を除いて」は except、「〜を越えて」は beyond。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00043-ja2en-1",
+      "version": 1,
+      "wordId": "w00043",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "〜にもかかわらず"
+      },
+      "choices": [
+        {
+          "text": "throughout",
+          "fromWordId": "w00044",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "except",
+          "fromWordId": "w00045",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "beyond",
+          "fromWordId": "w00046",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "despite",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "「〜にもかかわらず」は despite（前置詞）です。例：Despite the rain, the event was a great success.（雨にもかかわらず、そのイベントは大成功だった。） ほかの選択肢：throughout＝〜の至る所に、except＝〜を除いて、beyond＝〜を越えて。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00043-cloze-1",
+      "version": 1,
+      "wordId": "w00043",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The meeting was held as scheduled ___ the heavy snow.",
+        "ja": "大雪にもかかわらず、会議は予定どおり開かれた。"
+      },
+      "choices": [
+        {
+          "text": "despite",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "although",
+          "fromWordId": "w00047",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "unless",
+          "fromWordId": "w00048",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "whereas",
+          "fromWordId": "w00049",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "空欄の後ろは名詞（the heavy snow）だけなので、前置詞の despite が入ります。although・unless・whereas は接続詞で、後ろに主語と動詞が必要です。 訳：大雪にもかかわらず、会議は予定どおり開かれた。 ほかの選択肢：although（〜だけれども）、unless（〜でない限り）、whereas（〜である一方）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00044-en2ja-1",
+      "version": 1,
+      "wordId": "w00044",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "throughout"
+      },
+      "choices": [
+        {
+          "text": "〜の至る所に",
+          "fromWordId": "w00044",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜にもかかわらず",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜を除いて",
+          "fromWordId": "w00045",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜を越えて",
+          "fromWordId": "w00046",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "throughout（前置詞）は「〜の至る所に」「〜の間ずっと」という意味です。例：The museum is open throughout the year.（その美術館は1年中開いている。） ほかの選択肢：「〜にもかかわらず」は despite、「〜を除いて」は except、「〜を越えて」は beyond。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00044-ja2en-1",
+      "version": 1,
+      "wordId": "w00044",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "〜の至る所に、〜の間ずっと"
+      },
+      "choices": [
+        {
+          "text": "throughout",
+          "fromWordId": "w00044",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "despite",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "except",
+          "fromWordId": "w00045",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "beyond",
+          "fromWordId": "w00046",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "「〜の至る所に、〜の間ずっと」は throughout（前置詞）です。例：The museum is open throughout the year.（その美術館は1年中開いている。） ほかの選択肢：despite＝〜にもかかわらず、except＝〜を除いて、beyond＝〜を越えて。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00044-cloze-1",
+      "version": 1,
+      "wordId": "w00044",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The company has more than 50 stores ___ the country.",
+        "ja": "その会社は国中に50以上の店舗を持っている。"
+      },
+      "choices": [
+        {
+          "text": "despite",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "throughout",
+          "fromWordId": "w00044",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "except",
+          "fromWordId": "w00045",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "although",
+          "fromWordId": "w00047",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "throughout the country で「国中に」。場所の広がりを表します。 訳：その会社は国中に50以上の店舗を持っている。 ほかの選択肢：despite（〜にもかかわらず）、except（〜を除いて）、although（〜だけれども）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00045-en2ja-1",
+      "version": 1,
+      "wordId": "w00045",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "except"
+      },
+      "choices": [
+        {
+          "text": "〜にもかかわらず",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜を除いて",
+          "fromWordId": "w00045",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜の至る所に",
+          "fromWordId": "w00044",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜を越えて",
+          "fromWordId": "w00046",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "except（前置詞）は「〜を除いて」「〜以外は」という意味です。例：The office is open every day except Sunday.（事務所は日曜日以外、毎日開いている。） ほかの選択肢：「〜にもかかわらず」は despite、「〜の至る所に」は throughout、「〜を越えて」は beyond。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00045-ja2en-1",
+      "version": 1,
+      "wordId": "w00045",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "〜を除いて、〜以外は"
+      },
+      "choices": [
+        {
+          "text": "despite",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "except",
+          "fromWordId": "w00045",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "throughout",
+          "fromWordId": "w00044",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "beyond",
+          "fromWordId": "w00046",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「〜を除いて、〜以外は」は except（前置詞）です。例：The office is open every day except Sunday.（事務所は日曜日以外、毎日開いている。） ほかの選択肢：despite＝〜にもかかわらず、throughout＝〜の至る所に、beyond＝〜を越えて。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00045-cloze-1",
+      "version": 1,
+      "wordId": "w00045",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "All of the staff members ___ Mr. Lee attended the training session.",
+        "ja": "リーさん以外のスタッフ全員が研修会に出席した。"
+      },
+      "choices": [
+        {
+          "text": "despite",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "throughout",
+          "fromWordId": "w00044",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "except",
+          "fromWordId": "w00045",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "whereas",
+          "fromWordId": "w00049",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "「全員（All）」から1人を除くので「〜以外は」の except です。 訳：リーさん以外のスタッフ全員が研修会に出席した。 ほかの選択肢：despite（〜にもかかわらず）、throughout（〜の至る所に）、whereas（〜である一方）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00046-en2ja-1",
+      "version": 1,
+      "wordId": "w00046",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "beyond"
+      },
+      "choices": [
+        {
+          "text": "〜にもかかわらず",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜の至る所に",
+          "fromWordId": "w00044",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜を越えて",
+          "fromWordId": "w00046",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜を除いて",
+          "fromWordId": "w00045",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "beyond（前置詞）は「〜を越えて」「〜の向こうに」という意味です。例：The cost of the project went beyond the original plan.（プロジェクトの費用は当初の計画を超えた。） ほかの選択肢：「〜にもかかわらず」は despite、「〜の至る所に」は throughout、「〜を除いて」は except。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00046-ja2en-1",
+      "version": 1,
+      "wordId": "w00046",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "〜を越えて、〜の向こうに"
+      },
+      "choices": [
+        {
+          "text": "despite",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "throughout",
+          "fromWordId": "w00044",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "beyond",
+          "fromWordId": "w00046",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "except",
+          "fromWordId": "w00045",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "「〜を越えて、〜の向こうに」は beyond（前置詞）です。例：The cost of the project went beyond the original plan.（プロジェクトの費用は当初の計画を超えた。） ほかの選択肢：despite＝〜にもかかわらず、throughout＝〜の至る所に、except＝〜を除いて。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00046-cloze-1",
+      "version": 1,
+      "wordId": "w00046",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "The repair is ___ our ability, so we will call a specialist.",
+        "ja": "その修理は私たちの能力を超えているので、専門家を呼ぶ。"
+      },
+      "choices": [
+        {
+          "text": "despite",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "except",
+          "fromWordId": "w00045",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "although",
+          "fromWordId": "w00047",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "beyond",
+          "fromWordId": "w00046",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "be beyond one's ability で「〜の能力を超えている」。だから専門家を呼ぶ、という流れです。 訳：その修理は私たちの能力を超えているので、専門家を呼ぶ。 ほかの選択肢：despite（〜にもかかわらず）、except（〜を除いて）、although（〜だけれども）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00047-en2ja-1",
+      "version": 1,
+      "wordId": "w00047",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "although"
+      },
+      "choices": [
+        {
+          "text": "〜でない限り",
+          "fromWordId": "w00048",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜かどうか",
+          "fromWordId": "w00050",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜なので",
+          "fromWordId": "w00051",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜だけれども",
+          "fromWordId": "w00047",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "although（接続詞）は「〜だけれども」という意味です。例：Although it was late, she continued working.（遅い時間だったが、彼女は仕事を続けた。） ほかの選択肢：「〜でない限り」は unless、「〜かどうか」は whether、「〜なので」は because。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00047-ja2en-1",
+      "version": 1,
+      "wordId": "w00047",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "〜だけれども"
+      },
+      "choices": [
+        {
+          "text": "unless",
+          "fromWordId": "w00048",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "whether",
+          "fromWordId": "w00050",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "because",
+          "fromWordId": "w00051",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "although",
+          "fromWordId": "w00047",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "「〜だけれども」は although（接続詞）です。例：Although it was late, she continued working.（遅い時間だったが、彼女は仕事を続けた。） ほかの選択肢：unless＝〜でない限り、whether＝〜かどうか、because＝〜なので。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00047-cloze-1",
+      "version": 1,
+      "wordId": "w00047",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "___ the hotel was expensive, we enjoyed our stay very much.",
+        "ja": "ホテルは高かったが、私たちは滞在を大いに楽しんだ。"
+      },
+      "choices": [
+        {
+          "text": "Although",
+          "fromWordId": "w00047",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "Despite",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "Unless",
+          "fromWordId": "w00048",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "Whether",
+          "fromWordId": "w00050",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "後ろに主語と動詞（the hotel was）が続き、「高かったが楽しんだ」と逆の内容をつなぐので、接続詞の Although です。Despite は前置詞なので後ろに文は続きません。 訳：ホテルは高かったが、私たちは滞在を大いに楽しんだ。 ほかの選択肢：Despite（〜にもかかわらず）、Unless（〜でない限り）、Whether（〜かどうか）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00048-en2ja-1",
+      "version": 1,
+      "wordId": "w00048",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "unless"
+      },
+      "choices": [
+        {
+          "text": "〜でない限り",
+          "fromWordId": "w00048",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜だけれども",
+          "fromWordId": "w00047",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜である一方",
+          "fromWordId": "w00049",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜なので",
+          "fromWordId": "w00051",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "unless（接続詞）は「〜でない限り」「もし〜でなければ」という意味です。例：We will start at 9 a.m. unless it rains.（雨が降らない限り、午前9時に始めます。） ほかの選択肢：「〜だけれども」は although、「〜である一方」は whereas、「〜なので」は because。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00048-ja2en-1",
+      "version": 1,
+      "wordId": "w00048",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "〜でない限り"
+      },
+      "choices": [
+        {
+          "text": "unless",
+          "fromWordId": "w00048",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "although",
+          "fromWordId": "w00047",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "whereas",
+          "fromWordId": "w00049",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "whether",
+          "fromWordId": "w00050",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "「〜でない限り」は unless（接続詞）です。例：We will start at 9 a.m. unless it rains.（雨が降らない限り、午前9時に始めます。） ほかの選択肢：although＝〜だけれども、whereas＝〜である一方、whether＝〜かどうか。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00048-cloze-1",
+      "version": 1,
+      "wordId": "w00048",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "You cannot enter the building ___ you have an ID card.",
+        "ja": "身分証を持っていない限り、建物には入れません。"
+      },
+      "choices": [
+        {
+          "text": "although",
+          "fromWordId": "w00047",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "unless",
+          "fromWordId": "w00048",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "whereas",
+          "fromWordId": "w00049",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "despite",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「身分証を持っていなければ入れない」という条件を表すので unless です。 訳：身分証を持っていない限り、建物には入れません。 ほかの選択肢：although（〜だけれども）、whereas（〜である一方）、despite（〜にもかかわらず）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00049-en2ja-1",
+      "version": 1,
+      "wordId": "w00049",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "whereas"
+      },
+      "choices": [
+        {
+          "text": "〜でない限り",
+          "fromWordId": "w00048",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜である一方",
+          "fromWordId": "w00049",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜かどうか",
+          "fromWordId": "w00050",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜なので",
+          "fromWordId": "w00051",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "whereas（接続詞）は「〜である一方」「〜なのに対して」という意味です。例：Some people prefer tea, whereas others prefer coffee.（紅茶を好む人もいれば、一方でコーヒーを好む人もいる。） ほかの選択肢：「〜でない限り」は unless、「〜かどうか」は whether、「〜なので」は because。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00049-ja2en-1",
+      "version": 1,
+      "wordId": "w00049",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "〜である一方、〜なのに対して"
+      },
+      "choices": [
+        {
+          "text": "unless",
+          "fromWordId": "w00048",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "whereas",
+          "fromWordId": "w00049",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "whether",
+          "fromWordId": "w00050",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "because",
+          "fromWordId": "w00051",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「〜である一方、〜なのに対して」は whereas（接続詞）です。例：Some people prefer tea, whereas others prefer coffee.（紅茶を好む人もいれば、一方でコーヒーを好む人もいる。） ほかの選択肢：unless＝〜でない限り、whether＝〜かどうか、because＝〜なので。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00049-cloze-1",
+      "version": 1,
+      "wordId": "w00049",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Sales increased in Asia, ___ they decreased in Europe.",
+        "ja": "アジアでは売り上げが伸びた一方、ヨーロッパでは減少した。"
+      },
+      "choices": [
+        {
+          "text": "unless",
+          "fromWordId": "w00048",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "whether",
+          "fromWordId": "w00050",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "whereas",
+          "fromWordId": "w00049",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "despite",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "ja": "「アジアでは増えた」と「ヨーロッパでは減った」を対比しているので whereas です。 訳：アジアでは売り上げが伸びた一方、ヨーロッパでは減少した。 ほかの選択肢：unless（〜でない限り）、whether（〜かどうか）、despite（〜にもかかわらず）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00050-en2ja-1",
+      "version": 1,
+      "wordId": "w00050",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "whether"
+      },
+      "choices": [
+        {
+          "text": "〜だけれども",
+          "fromWordId": "w00047",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜でない限り",
+          "fromWordId": "w00048",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜なので",
+          "fromWordId": "w00051",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜かどうか",
+          "fromWordId": "w00050",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "whether（接続詞）は「〜かどうか」という意味です。例：I'm not sure whether he will come to the party.（彼がパーティーに来るかどうか、わからない。） ほかの選択肢：「〜だけれども」は although、「〜でない限り」は unless、「〜なので」は because。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00050-ja2en-1",
+      "version": 1,
+      "wordId": "w00050",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "〜かどうか"
+      },
+      "choices": [
+        {
+          "text": "although",
+          "fromWordId": "w00047",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "unless",
+          "fromWordId": "w00048",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "because",
+          "fromWordId": "w00051",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "whether",
+          "fromWordId": "w00050",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "ja": "「〜かどうか」は whether（接続詞）です。例：I'm not sure whether he will come to the party.（彼がパーティーに来るかどうか、わからない。） ほかの選択肢：although＝〜だけれども、unless＝〜でない限り、because＝〜なので。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00050-cloze-1",
+      "version": 1,
+      "wordId": "w00050",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "Please let us know ___ you will be able to attend the dinner.",
+        "ja": "夕食会に出席できるかどうか、お知らせください。"
+      },
+      "choices": [
+        {
+          "text": "whether",
+          "fromWordId": "w00050",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "although",
+          "fromWordId": "w00047",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "unless",
+          "fromWordId": "w00048",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "despite",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "let us know の目的語として「〜かどうか」を表す名詞節をつくるのは whether です。 訳：夕食会に出席できるかどうか、お知らせください。 ほかの選択肢：although（〜だけれども）、unless（〜でない限り）、despite（〜にもかかわらず）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00051-en2ja-1",
+      "version": 1,
+      "wordId": "w00051",
+      "senseId": "s1",
+      "type": "en2ja",
+      "prompt": {
+        "text": "because"
+      },
+      "choices": [
+        {
+          "text": "〜なので",
+          "fromWordId": "w00051",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜だけれども",
+          "fromWordId": "w00047",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜でない限り",
+          "fromWordId": "w00048",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "〜かどうか",
+          "fromWordId": "w00050",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "because（接続詞）は「〜なので」「〜だから」という意味です。例：The office was closed because the power was out.（停電していたので、事務所は閉まっていた。） ほかの選択肢：「〜だけれども」は although、「〜でない限り」は unless、「〜かどうか」は whether。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00051-ja2en-1",
+      "version": 1,
+      "wordId": "w00051",
+      "senseId": "s1",
+      "type": "ja2en",
+      "prompt": {
+        "text": "〜なので、〜だから"
+      },
+      "choices": [
+        {
+          "text": "because",
+          "fromWordId": "w00051",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "although",
+          "fromWordId": "w00047",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "unless",
+          "fromWordId": "w00048",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "whereas",
+          "fromWordId": "w00049",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "ja": "「〜なので、〜だから」は because（接続詞）です。例：The office was closed because the power was out.（停電していたので、事務所は閉まっていた。） ほかの選択肢：although＝〜だけれども、unless＝〜でない限り、whereas＝〜である一方。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    },
+    {
+      "questionId": "q-w00051-cloze-1",
+      "version": 1,
+      "wordId": "w00051",
+      "senseId": "s1",
+      "type": "cloze",
+      "prompt": {
+        "text": "We moved the party indoors ___ it started to rain.",
+        "ja": "雨が降り始めたので、パーティーを屋内に移した。"
+      },
+      "choices": [
+        {
+          "text": "unless",
+          "fromWordId": "w00048",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "because",
+          "fromWordId": "w00051",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "whereas",
+          "fromWordId": "w00049",
+          "fromSenseId": "s1"
+        },
+        {
+          "text": "despite",
+          "fromWordId": "w00043",
+          "fromSenseId": "s1"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "ja": "「雨が降り始めた」ことが屋内に移した理由なので because です。 訳：雨が降り始めたので、パーティーを屋内に移した。 ほかの選択肢：unless（〜でない限り）、whereas（〜である一方）、despite（〜にもかかわらず）。"
+      },
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "note": ""
+      }
+    }
+  ]
+}

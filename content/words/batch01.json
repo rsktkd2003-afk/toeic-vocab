@@ -1,0 +1,2068 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "2026.11.0",
+  "words": [
+    {
+      "wordId": "w00001",
+      "headword": "invoice",
+      "forms": [
+        "invoice",
+        "invoices",
+        "invoiced",
+        "invoicing"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "noun",
+          "ja": [
+            "請求書",
+            "送り状"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈɪnvɔɪs"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "Please send the invoice to our accounting department.",
+          "ja": "経理部に請求書を送ってください。"
+        }
+      ],
+      "source": {
+        "list": "TSL-1.2",
+        "rank": 19,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00002",
+      "headword": "receipt",
+      "forms": [
+        "receipt",
+        "receipts",
+        "receipted",
+        "receipting"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "noun",
+          "ja": [
+            "領収書",
+            "レシート"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "rɪˈsiːt"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "Keep the receipt in case you need to return the item.",
+          "ja": "商品を返品する場合に備えて、領収書を保管してください。"
+        }
+      ],
+      "source": {
+        "list": "TSL-1.2",
+        "rank": 33,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00003",
+      "headword": "estimate",
+      "forms": [
+        "estimate",
+        "estimates",
+        "estimated",
+        "estimating"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "noun",
+          "ja": [
+            "見積もり",
+            "見積書"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈestɪmət"
+      },
+      "cefr": null,
+      "band": 2,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The contractor gave us an estimate for the repair work.",
+          "ja": "業者は修理作業の見積もりを出してくれた。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 999,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00004",
+      "headword": "refund",
+      "forms": [
+        "refund",
+        "refunds",
+        "refunded",
+        "refunding"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "noun",
+          "ja": [
+            "返金",
+            "払い戻し"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈriːfʌnd"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "Customers can ask for a full refund within 30 days.",
+          "ja": "顧客は30日以内なら全額返金を求めることができる。"
+        }
+      ],
+      "source": {
+        "list": "TSL-1.2",
+        "rank": 14,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00005",
+      "headword": "client",
+      "forms": [
+        "client",
+        "clients"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "noun",
+          "ja": [
+            "顧客",
+            "依頼人"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈklaɪənt"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "She is meeting an important client this afternoon.",
+          "ja": "彼女は今日の午後、大切な顧客と会う予定だ。"
+        }
+      ],
+      "source": {
+        "list": "TSL-1.2",
+        "rank": 3,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00006",
+      "headword": "supplier",
+      "forms": [
+        "supplier",
+        "suppliers"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "noun",
+          "ja": [
+            "供給業者",
+            "仕入れ先"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "səˈplaɪər"
+      },
+      "cefr": null,
+      "band": 4,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "We are looking for a new supplier of paper products.",
+          "ja": "当社は紙製品の新しい仕入れ先を探している。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 2004,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00007",
+      "headword": "budget",
+      "forms": [
+        "budget",
+        "budgets",
+        "budgeted",
+        "budgeting"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "noun",
+          "ja": [
+            "予算"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈbʌdʒɪt"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The project was finished on time and within budget.",
+          "ja": "そのプロジェクトは予定どおり、予算内で完了した。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 1016,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00008",
+      "headword": "deadline",
+      "forms": [
+        "deadline",
+        "deadlines"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "noun",
+          "ja": [
+            "締め切り",
+            "期限"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈdedlaɪn"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The deadline for applications is March 31.",
+          "ja": "応募の締め切りは3月31日だ。"
+        }
+      ],
+      "source": {
+        "list": "TSL-1.2",
+        "rank": 18,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00009",
+      "headword": "contract",
+      "forms": [
+        "contract",
+        "contracts",
+        "contracted",
+        "contracting"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "noun",
+          "ja": [
+            "契約",
+            "契約書"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈkɑːntrækt"
+      },
+      "cefr": null,
+      "band": 2,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "Both companies signed a three-year contract.",
+          "ja": "両社は3年契約に署名した。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 714,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00010",
+      "headword": "department",
+      "forms": [
+        "department",
+        "departments"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "noun",
+          "ja": [
+            "部署",
+            "部門"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "dɪˈpɑːrtmənt"
+      },
+      "cefr": null,
+      "band": 2,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "He works in the sales department.",
+          "ja": "彼は営業部で働いている。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 736,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00011",
+      "headword": "facility",
+      "forms": [
+        "facility",
+        "facilities"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "noun",
+          "ja": [
+            "施設",
+            "設備"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "fəˈsɪləti"
+      },
+      "cefr": null,
+      "band": 2,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The hotel has excellent sports facilities.",
+          "ja": "そのホテルには優れたスポーツ施設がある。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 953,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00012",
+      "headword": "inventory",
+      "forms": [
+        "inventory",
+        "inventories"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "noun",
+          "ja": [
+            "在庫",
+            "在庫品",
+            "目録"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈɪnvəntɔːri"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The store checks its inventory every month.",
+          "ja": "その店は毎月、在庫を確認している。"
+        }
+      ],
+      "source": {
+        "list": "TSL-1.2",
+        "rank": 60,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00013",
+      "headword": "shipment",
+      "forms": [
+        "shipment",
+        "shipments"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "noun",
+          "ja": [
+            "発送品",
+            "積み荷",
+            "発送"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈʃɪpmənt"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The shipment arrived two days late.",
+          "ja": "積み荷は2日遅れで届いた。"
+        }
+      ],
+      "source": {
+        "list": "TSL-1.2",
+        "rank": 38,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00014",
+      "headword": "applicant",
+      "forms": [
+        "applicant",
+        "applicants"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "noun",
+          "ja": [
+            "応募者",
+            "志願者"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈæplɪkənt"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "More than 100 applicants applied for the position.",
+          "ja": "100人以上の応募者がその職に応募した。"
+        }
+      ],
+      "source": {
+        "list": "TSL-1.2",
+        "rank": 28,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00015",
+      "headword": "revenue",
+      "forms": [
+        "revenue",
+        "revenues"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "noun",
+          "ja": [
+            "収益",
+            "歳入"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈrevənuː"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The company's revenue increased by 10 percent last year.",
+          "ja": "その会社の収益は昨年10パーセント増えた。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 1351,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00016",
+      "headword": "discount",
+      "forms": [
+        "discount",
+        "discounts",
+        "discounted",
+        "discounting"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "noun",
+          "ja": [
+            "割引"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈdɪskaʊnt"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "Members receive a 15 percent discount on all items.",
+          "ja": "会員は全商品が15パーセント割引になる。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 1660,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00017",
+      "headword": "submit",
+      "forms": [
+        "submit",
+        "submits",
+        "submitted",
+        "submitting"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "verb",
+          "ja": [
+            "提出する"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "səbˈmɪt"
+      },
+      "cefr": null,
+      "band": 4,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "All employees must submit their travel expenses by the end of the month.",
+          "ja": "全従業員は月末までに出張経費を提出しなければならない。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 2070,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00018",
+      "headword": "confirm",
+      "forms": [
+        "confirm",
+        "confirms",
+        "confirmed",
+        "confirming"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "verb",
+          "ja": [
+            "確認する",
+            "確定する"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "kənˈfɜːrm"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "Please call the hotel to confirm your reservation.",
+          "ja": "ホテルに電話して予約を確認してください。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 1206,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00019",
+      "headword": "require",
+      "forms": [
+        "require",
+        "requires",
+        "required",
+        "requiring"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "verb",
+          "ja": [
+            "必要とする",
+            "要求する"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "rɪˈkwaɪər"
+      },
+      "cefr": null,
+      "band": 1,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "This job requires at least three years of experience.",
+          "ja": "この仕事には少なくとも3年の経験が必要だ。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 402,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00020",
+      "headword": "attend",
+      "forms": [
+        "attend",
+        "attends",
+        "attended",
+        "attending"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "verb",
+          "ja": [
+            "出席する",
+            "参加する"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "əˈtend"
+      },
+      "cefr": null,
+      "band": 2,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "More than 200 people attended the conference.",
+          "ja": "200人以上がその会議に出席した。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 820,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00021",
+      "headword": "postpone",
+      "forms": [
+        "postpone",
+        "postpones",
+        "postponed",
+        "postponing"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "verb",
+          "ja": [
+            "延期する"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "poʊstˈpoʊn"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The game was postponed because of heavy rain.",
+          "ja": "その試合は大雨のため延期された。"
+        }
+      ],
+      "source": {
+        "list": "TSL-1.2",
+        "rank": 65,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00022",
+      "headword": "approve",
+      "forms": [
+        "approve",
+        "approves",
+        "approved",
+        "approving"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "verb",
+          "ja": [
+            "承認する",
+            "賛成する"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "əˈpruːv"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The manager approved the new budget.",
+          "ja": "部長は新しい予算を承認した。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 1575,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00023",
+      "headword": "reserve",
+      "forms": [
+        "reserve",
+        "reserves",
+        "reserved",
+        "reserving"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "verb",
+          "ja": [
+            "予約する",
+            "取っておく"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "rɪˈzɜːrv"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "I'd like to reserve a table for four at seven o'clock.",
+          "ja": "7時に4人分の席を予約したいのですが。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 1688,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00024",
+      "headword": "deliver",
+      "forms": [
+        "deliver",
+        "delivers",
+        "delivered",
+        "delivering"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "verb",
+          "ja": [
+            "配達する",
+            "届ける"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "dɪˈlɪvər"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The package will be delivered tomorrow morning.",
+          "ja": "その荷物は明日の朝に配達される。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 1064,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00025",
+      "headword": "hire",
+      "forms": [
+        "hire",
+        "hires",
+        "hired",
+        "hiring"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "verb",
+          "ja": [
+            "雇う"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "haɪər"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The restaurant plans to hire five new staff members.",
+          "ja": "そのレストランは新しいスタッフを5人雇う予定だ。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 1514,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00026",
+      "headword": "purchase",
+      "forms": [
+        "purchase",
+        "purchases",
+        "purchased",
+        "purchasing"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "verb",
+          "ja": [
+            "購入する"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈpɜːrtʃəs"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "You can purchase tickets online or at the box office.",
+          "ja": "チケットはオンラインかチケット売り場で購入できる。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 1002,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00027",
+      "headword": "renovate",
+      "forms": [
+        "renovate",
+        "renovates",
+        "renovated",
+        "renovating"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "verb",
+          "ja": [
+            "改装する",
+            "修復する"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈrenəveɪt"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The hotel was renovated last year.",
+          "ja": "そのホテルは昨年改装された。"
+        }
+      ],
+      "source": {
+        "list": "TSL-1.2",
+        "rank": 124,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00028",
+      "headword": "inquire",
+      "forms": [
+        "inquire",
+        "inquires",
+        "inquired",
+        "inquiring"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "verb",
+          "ja": [
+            "問い合わせる",
+            "尋ねる"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ɪnˈkwaɪər"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "Several customers called to inquire about the new service.",
+          "ja": "何人かの客が、新しいサービスについて問い合わせるために電話してきた。"
+        }
+      ],
+      "source": {
+        "list": "TSL-1.2",
+        "rank": 173,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00029",
+      "headword": "announce",
+      "forms": [
+        "announce",
+        "announces",
+        "announced",
+        "announcing"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "verb",
+          "ja": [
+            "発表する",
+            "知らせる"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "əˈnaʊns"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The company announced its plans to open ten new stores.",
+          "ja": "その会社は10店舗を新規開店する計画を発表した。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 1004,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00030",
+      "headword": "extend",
+      "forms": [
+        "extend",
+        "extends",
+        "extended",
+        "extending"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "verb",
+          "ja": [
+            "延長する",
+            "広げる"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ɪkˈstend"
+      },
+      "cefr": null,
+      "band": 2,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The store has extended its opening hours.",
+          "ja": "その店は営業時間を延長した。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 950,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00031",
+      "headword": "various",
+      "forms": [
+        "various"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "adj",
+          "ja": [
+            "さまざまな",
+            "いろいろな"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [
+        "diverse"
+      ],
+      "pronunciation": {
+        "ipa": "ˈveriəs"
+      },
+      "cefr": null,
+      "band": 2,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The store sells various kinds of coffee.",
+          "ja": "その店はさまざまな種類のコーヒーを売っている。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 682,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00032",
+      "headword": "available",
+      "forms": [
+        "available"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "adj",
+          "ja": [
+            "利用できる",
+            "手が空いている",
+            "入手できる"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "əˈveɪləbəl"
+      },
+      "cefr": null,
+      "band": 1,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The meeting room is available after 3 p.m.",
+          "ja": "会議室は午後3時以降なら使える。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 459,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00033",
+      "headword": "necessary",
+      "forms": [
+        "necessary",
+        "necessaries"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "adj",
+          "ja": [
+            "必要な"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈnesəseri"
+      },
+      "cefr": null,
+      "band": 2,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "It is necessary to show your ID at the entrance.",
+          "ja": "入り口で身分証を見せる必要がある。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 676,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00034",
+      "headword": "accurate",
+      "forms": [
+        "accurate"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "adj",
+          "ja": [
+            "正確な"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈækjərət"
+      },
+      "cefr": null,
+      "band": 4,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The weather report was not very accurate.",
+          "ja": "天気予報はあまり正確ではなかった。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 2283,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00035",
+      "headword": "temporary",
+      "forms": [
+        "temporary"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "adj",
+          "ja": [
+            "一時的な",
+            "臨時の"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈtempəreri"
+      },
+      "cefr": null,
+      "band": 4,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "She found a temporary job for the summer.",
+          "ja": "彼女は夏の間の臨時の仕事を見つけた。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 1820,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00036",
+      "headword": "annual",
+      "forms": [
+        "annual",
+        "annuals"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "adj",
+          "ja": [
+            "年1回の",
+            "毎年の",
+            "年間の"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈænjuəl"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The company holds its annual meeting in June.",
+          "ja": "その会社は年次総会を6月に開く。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 1177,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00037",
+      "headword": "efficient",
+      "forms": [
+        "efficient"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "adj",
+          "ja": [
+            "効率的な",
+            "有能な"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ɪˈfɪʃənt"
+      },
+      "cefr": null,
+      "band": 4,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The new system is more efficient than the old one.",
+          "ja": "新しいシステムは古いものより効率的だ。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 1969,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00038",
+      "headword": "reliable",
+      "forms": [
+        "reliable",
+        "reliables"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "adj",
+          "ja": [
+            "信頼できる",
+            "頼りになる"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "rɪˈlaɪəbəl"
+      },
+      "cefr": null,
+      "band": 4,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "We need a reliable person to manage the project.",
+          "ja": "プロジェクトを管理する、信頼できる人が必要だ。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 2512,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00039",
+      "headword": "previous",
+      "forms": [
+        "previous"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "adj",
+          "ja": [
+            "以前の",
+            "前の"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈpriːviəs"
+      },
+      "cefr": null,
+      "band": 2,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "I met her at the previous meeting.",
+          "ja": "私は前回の会議で彼女に会った。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 922,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00040",
+      "headword": "additional",
+      "forms": [
+        "additional"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "adj",
+          "ja": [
+            "追加の"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "əˈdɪʃənəl"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "There is no additional charge for breakfast.",
+          "ja": "朝食に追加料金はかからない。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 1081,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00041",
+      "headword": "convenient",
+      "forms": [
+        "convenient"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "adj",
+          "ja": [
+            "便利な",
+            "都合のよい"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "kənˈviːniənt"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The hotel is in a convenient location near the station.",
+          "ja": "そのホテルは駅に近い便利な場所にある。"
+        }
+      ],
+      "source": {
+        "list": "TSL-1.2",
+        "rank": 54,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00042",
+      "headword": "eligible",
+      "forms": [
+        "eligible"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "adj",
+          "ja": [
+            "資格のある",
+            "適格な"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈelɪdʒəbəl"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "Full-time employees are eligible for the bonus.",
+          "ja": "正社員はそのボーナスを受け取る資格がある。"
+        }
+      ],
+      "source": {
+        "list": "TSL-1.2",
+        "rank": 150,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00043",
+      "headword": "despite",
+      "forms": [
+        "despite"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "prep",
+          "ja": [
+            "〜にもかかわらず"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "dɪˈspaɪt"
+      },
+      "cefr": null,
+      "band": 2,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "Despite the rain, the event was a great success.",
+          "ja": "雨にもかかわらず、そのイベントは大成功だった。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 771,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00044",
+      "headword": "throughout",
+      "forms": [
+        "throughout"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "prep",
+          "ja": [
+            "〜の至る所に",
+            "〜の間ずっと"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "θruːˈaʊt"
+      },
+      "cefr": null,
+      "band": 2,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The museum is open throughout the year.",
+          "ja": "その美術館は1年中開いている。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 897,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00045",
+      "headword": "except",
+      "forms": [
+        "except",
+        "excepts",
+        "excepted",
+        "excepting"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "prep",
+          "ja": [
+            "〜を除いて",
+            "〜以外は"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ɪkˈsept"
+      },
+      "cefr": null,
+      "band": 2,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The office is open every day except Sunday.",
+          "ja": "事務所は日曜日以外、毎日開いている。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 841,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00046",
+      "headword": "beyond",
+      "forms": [
+        "beyond"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "prep",
+          "ja": [
+            "〜を越えて",
+            "〜の向こうに"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "biˈjɑːnd"
+      },
+      "cefr": null,
+      "band": 2,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The cost of the project went beyond the original plan.",
+          "ja": "プロジェクトの費用は当初の計画を超えた。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 826,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00047",
+      "headword": "although",
+      "forms": [
+        "although"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "conj",
+          "ja": [
+            "〜だけれども"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ɔːlˈðoʊ"
+      },
+      "cefr": null,
+      "band": 1,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "Although it was late, she continued working.",
+          "ja": "遅い時間だったが、彼女は仕事を続けた。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 278,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00048",
+      "headword": "unless",
+      "forms": [
+        "unless"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "conj",
+          "ja": [
+            "〜でない限り",
+            "もし〜でなければ"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ənˈles"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "We will start at 9 a.m. unless it rains.",
+          "ja": "雨が降らない限り、午前9時に始めます。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 1005,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00049",
+      "headword": "whereas",
+      "forms": [
+        "whereas"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "conj",
+          "ja": [
+            "〜である一方",
+            "〜なのに対して"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "werˈæz"
+      },
+      "cefr": null,
+      "band": 3,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "Some people prefer tea, whereas others prefer coffee.",
+          "ja": "紅茶を好む人もいれば、一方でコーヒーを好む人もいる。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 1372,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00050",
+      "headword": "whether",
+      "forms": [
+        "whether"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "conj",
+          "ja": [
+            "〜かどうか"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "ˈweðər"
+      },
+      "cefr": null,
+      "band": 1,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "I'm not sure whether he will come to the party.",
+          "ja": "彼がパーティーに来るかどうか、わからない。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 273,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    },
+    {
+      "wordId": "w00051",
+      "headword": "because",
+      "forms": [
+        "because",
+        "cos"
+      ],
+      "senses": [
+        {
+          "senseId": "s1",
+          "pos": "conj",
+          "ja": [
+            "〜なので",
+            "〜だから"
+          ],
+          "primary": true
+        }
+      ],
+      "synonyms": [],
+      "pronunciation": {
+        "ipa": "bɪˈkɔːz"
+      },
+      "cefr": null,
+      "band": 1,
+      "examples": [
+        {
+          "exId": "e1",
+          "senseId": "s1",
+          "en": "The office was closed because the power was out.",
+          "ja": "停電していたので、事務所は閉まっていた。"
+        }
+      ],
+      "source": {
+        "list": "NGSL-1.2",
+        "rank": 62,
+        "license": "CC BY-SA 4.0"
+      },
+      "status": "active",
+      "addedIn": "2026.11.0"
+    }
+  ]
+}
